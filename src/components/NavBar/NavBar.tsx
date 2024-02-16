@@ -63,7 +63,8 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in About submenu START */}
-                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[52%] md:w-auto md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
+                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
+                            <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
                                     {/* Submenu for institue */}
                                     <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
@@ -105,6 +106,7 @@ const NavBar = () => {
                                     </div>
                                     {/* Submenu for people END */}
                                 </div>
+                            </div>
                         </div>
                         {/* menus in About submenu END */}
                     </li>
