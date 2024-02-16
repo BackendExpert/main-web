@@ -2,6 +2,7 @@ import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
 
 const NavBar = () => {
+    // for open main navbar when mobile screen
     const [menuOpen, SetOpenMenu] = useState(false)
     const [aboutOpen, SetAboutMenu] = useState(false)
 
@@ -29,7 +30,7 @@ const NavBar = () => {
                             </div>
                          </div>
                     
-                        <ul className={` md:pl-4 md:py-4 md:ml-[47rem] md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-12 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${aboutOpen ? 'static' : 'hidden'}`}>
+                        <ul className={`md:pl-8 md:pt-8 md:pb-8 rounded mx-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-12 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                             <li>hi all</li>
                             <li>hi all</li>
                             <li>hi all</li>
