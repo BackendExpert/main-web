@@ -1,5 +1,6 @@
 import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
     // for open main navbar when mobile screen
@@ -49,7 +50,11 @@ const NavBar = () => {
                                 <div className="">
                                     <h1 className="text-xl">Institute</h1>
                                     <div className="">
-                                        
+                                        {
+                                            institue.map((ins) => (
+                                            
+                                            ))
+                                        }
                                     </div>
                                 </div>
                             </div>
