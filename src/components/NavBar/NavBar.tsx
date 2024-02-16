@@ -10,6 +10,7 @@ const NavBar = () => {
     const [aboutOpen, SetAboutMenu] = useState(false)
 
     // open about->institute submenu when mobile screen only
+    const [openins, SetInstOpen] = useState(false)
 
     // menus of About->institue Submenu
     let institue =[
