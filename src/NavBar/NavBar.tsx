@@ -19,7 +19,7 @@ const NavBar = () => {
 
                 <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
                     <li className="px-4 md:py-0 py-5">Home</li>
-                    <li className="px-4 mr-12 md:py-0 py-5">
+                    <li className="px-4 mr-12 md:py-0 py-8">
                         <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-0 pt-1 cursor-pointer">
                             <div className="flex -mt-[15px]">
                                 <div className="">About</div>
@@ -30,7 +30,7 @@ const NavBar = () => {
                          </div>
 
 
-                        <ul className={`py-6 px-4 ${aboutOpen ? '' : ''}`}>
+                        <ul className={`py-6 px-12 mt-6 duration-500 rounded bg-gray-900 ${aboutOpen ? 'static' : 'hidden'}`}>
                             <li>hi all</li>
                             <li>hi all</li>
                             <li>hi all</li>
