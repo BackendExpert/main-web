@@ -54,10 +54,10 @@ const NavBar = () => {
                                     <div className="flex md:static" onClick={() => SetInstOpen(!openins)}>
                                         <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
-                                            <span className="md:hidden pl-2 pt-2"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
+                                            <span className="pl-2 pt-2"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
                                         </div>
                                     </div>
-                                    <div className={`pl-3 pt-2 -pb-4`}>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden'}`}>
                                         <p className="">About Us</p>
                                         <p className="">test 1</p>
                                         <p className="">twp test</p>
