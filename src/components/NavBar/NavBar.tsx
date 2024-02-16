@@ -79,7 +79,7 @@ const NavBar = () => {
                                         {
                                             institue.map((ins) => (
                                                 <a href={ins.links}>
-                                                    <p className="">{ins.name}</p>
+                                                    <p className="py-2">{ins.name}</p>
                                                 </a>
                                             ))
                                         }
@@ -100,7 +100,7 @@ const NavBar = () => {
                                         {
                                             people.map((person) => (
                                                 <a href={person.links}>
-                                                    <p className="">{person.name}</p>
+                                                    <p className="py-2">{person.name}</p>
                                                 </a>
                                             ))
                                         }
