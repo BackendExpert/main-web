@@ -12,11 +12,11 @@ const NavBar = () => {
                 <span className="pl-4 pt-0 text-xl">Logo</span>
             </div>
             <div className="">
-                <div onClick={} className="text-3xl absolute right-7 top-4 cursor-pointer md:hidden">
+                <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-7 top-4 cursor-pointer md:hidden">
                     <IonIcon name="menu"></IonIcon>
                 </div>
 
-                <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in`}>
+                <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
                     <li className="px-4">Home</li>
                     <li className="px-4">About</li>
                     <li className="px-4">News & Events</li>
