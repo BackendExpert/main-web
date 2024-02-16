@@ -52,9 +52,11 @@ const NavBar = () => {
                                     <div className="">
                                         {
                                             institue.map((ins) => (
-                                                <Link to={ins.links}>
-                                                    <p className="">{ins.name}</p>
-                                                </Link>
+                                                <div className="">
+                                                    <a href={ins.links}>
+                                                        {ins.name}
+                                                    </a>
+                                                </div>
                                             ))
                                         }
                                     </div>
