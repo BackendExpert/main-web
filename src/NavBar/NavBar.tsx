@@ -1,6 +1,9 @@
 import IonIcon from "@reacticons/ionicons"
+import { useState } from "react"
 
 const NavBar = () => {
+    const [menuOpen, SetOpenMenu] = useState(false)
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
