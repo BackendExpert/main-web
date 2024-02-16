@@ -34,7 +34,7 @@ const NavBar = () => {
 
                 {/*-------------------- menus in navbar start ----------------------- */}
                 <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
-                    <li className="px-4 md:py-0 py-5 text-xl">Home</li>
+                    <li className="px-4 md:py-0 py-5 ">Home</li>
                     <li className="px-4 mr-12 md:py-0 py-8">
 
                         {/* Open 'about submenu */}
@@ -51,13 +51,26 @@ const NavBar = () => {
                         <div className={`pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:mx-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                             <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
-                                    <div className="">
-                                        <h1 className="text-md">Institute</h1>
+                                    <div className="flex md:static" onClick={() => SetInstOpen(!openins)}>
+                                        <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
-                                            <span className=""><IonIcon name="chevron-up"></IonIcon></span>
+                                            <span className="md:hidden pl-2 pt-2"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
                                         </div>
                                     </div>
-                                    <div className="">
+                                    <div className={`pl-3 pt-2 -pb-4`}>
+                                        <p className="">About Us</p>
+                                        <p className="">test 1</p>
+                                        <p className="">twp test</p>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <div className="flex" onClick={() => SetInstOpen(!openins)}>
+                                        <h1 className="md:text-xl">Institute</h1>
+                                        <div className="">
+                                            <span className="md:hidden pl-2 pt-2"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
+                                        </div>
+                                    </div>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden'}`}>
                                         <p className="">About Us</p>
                                         <p className="">test 1</p>
                                         <p className="">twp test</p>
