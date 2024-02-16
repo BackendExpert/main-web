@@ -48,6 +48,8 @@ const NavBar = () => {
                     <li className="px-4 md:py-0 py-5">Careers</li>
                     <li className="px-4 md:py-0 py-5">Contact</li>
                 </ul>
+                
+                {/*-------------------- menus in navbar end ----------------------- */}
             </div>
         </div>
 
