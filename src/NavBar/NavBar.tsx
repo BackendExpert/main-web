@@ -23,7 +23,7 @@ const NavBar = () => {
                         <div className="w-auto">
                             <div className="">About</div>
                             <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute pl-8 cursor-pointer">
-                                <IonIcon name="menu"></IonIcon>
+                                <IonIcon name="caret-down"></IonIcon>
                             </div>
                         </div>
 
