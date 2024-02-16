@@ -15,6 +15,9 @@ const NavBar = () => {
     // open about->people submenu
     const [openPeo, SetPeoOpen] = useState(false)
 
+    // open about->leadership
+    const [openLeader, SetLeaderOpen] = useState(false)
+
     // menus of About->institue Submenu
     let institue =[
         {name: "About Us", links: "/"},
