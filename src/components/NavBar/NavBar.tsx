@@ -1,6 +1,7 @@
 import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
 
+
 const NavBar = () => {
     // for open main navbar when mobile screen
     const [menuOpen, SetOpenMenu] = useState(false)
