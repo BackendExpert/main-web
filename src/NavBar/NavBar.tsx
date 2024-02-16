@@ -30,7 +30,7 @@ const NavBar = () => {
                          </div>
 
 
-                        <ul className={``}>
+                        <ul className={`py-6 px-4 ${aboutOpen ? '' : ''}`}>
                             <li>hi all</li>
                             <li>hi all</li>
                             <li>hi all</li>
