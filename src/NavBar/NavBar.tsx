@@ -9,7 +9,7 @@ const NavBar = () => {
                 <span className="pl-4 pt-0 text-xl">Logo</span>
             </div>
             <div className="">
-                <ul className="md:flex">
+                <ul className="md:flex md:items-center md:pb-0 pb-10 absolute bg-gray-800 md:z-auto z-[-1]">
                     <li className="px-4">Home</li>
                     <li className="px-4">About</li>
                     <li className="px-4">News & Events</li>
