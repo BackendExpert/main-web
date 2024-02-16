@@ -66,7 +66,7 @@ const NavBar = () => {
                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[52%] md:w-auto md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                                 <div className="">
                                     {/* Submenu for institue */}
-                                    <div className="flex md:static" onClick={() => SetInstOpen(!openins)}>
+                                    <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
                                         <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
                                             <p className="pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
@@ -86,10 +86,10 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for people Start */}
-                                    <div className="flex" onClick={() => SetPeoOpen(!openPeo)}>
+                                    <div className="flex md:static py-2" onClick={() => SetPeoOpen(!openPeo)}>
                                         <h1 className="md:text-xl">People</h1>
-                                        <div className="">
-                                            <span className="pl-2 pt-2"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
+                                        <div className="mt-1">
+                                            <span className="pl-2"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
                                         </div>
                                     </div>
                                     <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'hidden'}`}>
