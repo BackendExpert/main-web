@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const NavBar = () => {
     const [menuOpen, SetOpenMenu] = useState(false)
-
+    const [aboutOpen, SetAboutMenu] = useState(false)
 
   return (
     <div className="text-white bg-gray-700 w-full h-16">
@@ -14,7 +14,7 @@ const NavBar = () => {
             </div>
             <div className="">
                 <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-7 top-4 cursor-pointer md:hidden">
-                    <IonIcon name={menuOpen ? 'menu' : 'close'}></IonIcon>
+                    <IonIcon name={menuOpen ? 'close' : 'menu'}></IonIcon>
                 </div>
 
                 <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
@@ -22,7 +22,7 @@ const NavBar = () => {
                     <li className="px-4 mr-4 md:py-0 py-5">
                         <div className="w-auto flex">
                             <div className="">About</div>
-                            <div onClick={() => SetOpenMenu(!menuOpen)} className="text-md absolute ml-12 pt-1 cursor-pointer">
+                            <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-12 pt-1 cursor-pointer">
                                 <IonIcon name="chevron-down"></IonIcon>
                             </div>
                         </div>
