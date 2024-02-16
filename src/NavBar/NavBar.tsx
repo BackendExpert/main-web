@@ -9,13 +9,14 @@ const NavBar = () => {
                 <span className="pl-4 pt-0 text-xl">Logo</span>
             </div>
             <div className="">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>News & Events</li>
-                    <li>Academic</li>
-                    <li>Publication</li>
-                    
+                <ul className="md:flex">
+                    <li className="px-4">Home</li>
+                    <li className="px-4">About</li>
+                    <li className="px-4">News & Events</li>
+                    <li className="px-4">Academic</li>
+                    <li className="px-4">Publication</li>
+                    <li className="px-4">Careers</li>
+                    <li className="px-4">Contact</li>
                 </ul>
             </div>
         </div>
