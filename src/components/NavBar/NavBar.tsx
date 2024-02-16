@@ -50,7 +50,7 @@ const NavBar = () => {
                 {/*-------------------- menus in navbar start ----------------------- */}
                 <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
                     <li className="px-4 md:py-0 py-5 ">Home</li>
-                    <li className="px-4 mr-12 md:py-0 py-8">
+                    <li className="px-4 mr-12 md:py-0 pt-4 ">
 
                         {/* Open 'about submenu */}
                         <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-0 pt-1 cursor-pointer">
@@ -63,7 +63,7 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in About submenu START */}
-                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[52%] md:w-auto md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
+                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[52%] md:w-auto md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                                 <div className="">
                                     {/* Submenu for institue */}
                                     <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
