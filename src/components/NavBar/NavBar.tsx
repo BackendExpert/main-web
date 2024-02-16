@@ -73,10 +73,10 @@ const NavBar = () => {
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    <div className="md:static">
+                                    <div className="md:static hidden">
                                         <h1 className="py-2 md:text-xl">Institute</h1>
                                     </div>
-                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden'}`}>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden md:static'}`}>
                                         {/* fetch data from institute */}
                                         {
                                             institue.map((ins) => (
