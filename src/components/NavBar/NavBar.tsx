@@ -119,7 +119,7 @@ const NavBar = () => {
                                      {/* Submenu for people END*/}
                                 </div>
                                 <div className="">
-                                    {/* Submenu for people */}
+                                    {/* Submenu for leadership */}
                                     <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
                                         <h1 className="md:text-xl">People</h1>
                                         <div className="">
@@ -128,7 +128,7 @@ const NavBar = () => {
                                     </div>
                                     {/* use inline-block in md:  */}
                                     <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
-                                        {/* fetch data from people */}
+                                        {/* fetch data from leadership */}
                                         {
                                             people.map((person) => (
                                                 <a href={person.links}>
@@ -137,7 +137,7 @@ const NavBar = () => {
                                             ))
                                         }
                                     </div>
-                                     {/* Submenu for people END*/}
+                                     {/* Submenu for leadership END*/}
                                 </div>
 
                             </div>
