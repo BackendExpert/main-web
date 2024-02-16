@@ -8,6 +8,9 @@ const NavBar = () => {
     // for open submenu - About 
     const [aboutOpen, SetAboutMenu] = useState(false)
 
+    // menus of About Submenu
+    
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
