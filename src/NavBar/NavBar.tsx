@@ -30,7 +30,11 @@ const NavBar = () => {
                          </div>
 
 
-                        <ul className="hidden">
+                        <ul className={``}>
+                            <li>hi all</li>
+                            <li>hi all</li>
+                            <li>hi all</li>
+                            <li>hi all</li>
                             <li>hi all</li>
                         </ul>
                     </li>
