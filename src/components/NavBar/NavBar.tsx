@@ -9,6 +9,8 @@ const NavBar = () => {
     // for open submenu - About 
     const [aboutOpen, SetAboutMenu] = useState(false)
 
+    // open about->institute submenu when mobile screen only
+
     // menus of About->institue Submenu
     let institue =[
         {name: "About Us", links: "/"},
