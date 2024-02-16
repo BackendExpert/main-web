@@ -118,6 +118,27 @@ const NavBar = () => {
                                     </div>
                                      {/* Submenu for people END*/}
                                 </div>
+                                <div className="">
+                                    {/* Submenu for people */}
+                                    <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
+                                        <h1 className="md:text-xl">People</h1>
+                                        <div className="">
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                        </div>
+                                    </div>
+                                    {/* use inline-block in md:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
+                                        {/* fetch data from people */}
+                                        {
+                                            people.map((person) => (
+                                                <a href={person.links}>
+                                                    <p className="py-2">{person.name}</p>
+                                                </a>
+                                            ))
+                                        }
+                                    </div>
+                                     {/* Submenu for people END*/}
+                                </div>
 
                             </div>
                         </div>
