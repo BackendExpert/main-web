@@ -74,7 +74,7 @@ const NavBar = () => {
                                         </div>
                                     </div>
                                     <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden'}`}>
-                                        {/* fetch data from institue (line 19) */}
+                                        {/* fetch data from institute */}
                                         {
                                             institue.map((ins) => (
                                                 <a href={ins.links}>
@@ -94,7 +94,7 @@ const NavBar = () => {
                                         </div>
                                     </div>
                                     <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'hidden'}`}>
-                                        {/* fetch data from people (line 28)*/}
+                                        {/* fetch data from people */}
 
                                         {
                                             people.map((person) => (
