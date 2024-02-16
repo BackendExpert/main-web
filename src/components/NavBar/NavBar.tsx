@@ -34,7 +34,7 @@ const NavBar = () => {
                             <div className="flex -mt-[15px]">
                                 <div className="">About</div>
                                 <div className="pt-1 pl-1">
-                                    <IonIcon name={aboutOpen ? 'chevron-down' : 'chevron-up'}></IonIcon>
+                                    <IonIcon name={aboutOpen ? 'chevron-up' : 'chevron-down'}></IonIcon>
                                 </div>
                             </div>
                          </div>
