@@ -39,12 +39,11 @@ const NavBar = () => {
     // menu for About->leadership Submenu
 
     let leadership = [
-        {name: "Scientist", links: "/"},
-        {name: "Academics", links: "/"},
-        {name: "Non Academics", links: "/"},      
-        {name: "Volunteer", links: "/"},      
-        {name: "Alumin", links: "/"},  
-    ]
+        {name: "Board of Govrnors", links: "/"},
+        {name: "Chairman", links: "/"},
+        {name: "Director", links: "/"},      
+        {name: "Research Council", links: "/"},      
+    ];
     
   return (
     <div className="text-white bg-gray-700 w-full h-16">
