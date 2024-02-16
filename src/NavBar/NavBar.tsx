@@ -11,6 +11,11 @@ const NavBar = () => {
             <div className="">
                 <ul>
                     <li>Home</li>
+                    <li>About</li>
+                    <li>News & Events</li>
+                    <li>Academic</li>
+                    <li>Publication</li>
+                    
                 </ul>
             </div>
         </div>
