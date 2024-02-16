@@ -54,7 +54,7 @@ const NavBar = () => {
                                     <div className="">
                                         <h1 className="text-md">Institute</h1>
                                         <div className="">
-                                            
+                                            <span className=""><IonIcon name="chevron-up"></IonIcon></span>
                                         </div>
                                     </div>
                                     <div className="">
