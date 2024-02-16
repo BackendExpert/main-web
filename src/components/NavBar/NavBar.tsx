@@ -1,6 +1,5 @@
 import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
-import { Link } from "react-router-dom"
 
 const NavBar = () => {
     // for open main navbar when mobile screen
