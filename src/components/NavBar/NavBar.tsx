@@ -8,8 +8,8 @@ const NavBar = () => {
     // for open submenu - About 
     const [aboutOpen, SetAboutMenu] = useState(false)
 
-    // menus of About Submenu
-
+    // menus of About->institue Submenu
+    
 
   return (
     <div className="text-white bg-gray-700 w-full h-16">
@@ -44,6 +44,9 @@ const NavBar = () => {
                             <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
                                     <h1 className="text-xl">Institute</h1>
+                                    <div className="">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </ul>
