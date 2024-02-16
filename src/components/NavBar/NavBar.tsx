@@ -15,8 +15,8 @@ const NavBar = () => {
     // menus of About->institue Submenu
     let institue =[
         {name: "About Us", links: "/"},
-        {name: "About Us", links: "/"},
-        {name: "About Us", links: "/"},            
+        {name: "History", links: "/"},
+        {name: "Vision and Mision", links: "/"},            
     ];        
     
   return (
@@ -48,19 +48,22 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in About submenu START */}
-                        <div className={`pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:mx-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
-                            <div className="md:grid grid-cols-2 gap-2">
+                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[52%] md:w-auto md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                                 <div className="">
                                     <div className="flex md:static" onClick={() => SetInstOpen(!openins)}>
                                         <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
-                                            <span className="md:hidden pl-2 pt-2"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
+                                            <p className="pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
                                     <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'hidden'}`}>
-                                        <p className="">About Us</p>
-                                        <p className="">test 1</p>
-                                        <p className="">twp test</p>
+                                        {
+                                            institue.map((ins) => (
+                                                <a href={ins.links}>
+                                                    <p className="">{ins.name}</p>
+                                                </a>
+                                            ))
+                                        }
                                     </div>
                                 </div>
                                 <div className="">
@@ -76,7 +79,6 @@ const NavBar = () => {
                                         <p className="">twp test</p>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                         {/* menus in About submenu END */}
                     </li>
