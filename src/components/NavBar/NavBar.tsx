@@ -50,7 +50,7 @@ const NavBar = () => {
                 {/*-------------------- menus in navbar start ----------------------- */}
                 <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
                     <li className="px-4 md:py-0 py-5 ">Home</li>
-                    <li className="px-4 mr-12 md:py-0 pt-4 ">
+                    <li className="px-4 mr-12 md:py-0 pt-4 pb-4">
 
                         {/* Open 'about submenu */}
                         <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-0 pt-1 cursor-pointer">
@@ -108,11 +108,11 @@ const NavBar = () => {
                         </div>
                         {/* menus in About submenu END */}
                     </li>
-                    <li className="px-4 md:py-0 py-5">News & Events</li>
-                    <li className="px-4 md:py-0 py-5">Academic</li>
-                    <li className="px-4 md:py-0 py-5">Publication</li>
-                    <li className="px-4 md:py-0 py-5">Careers</li>
-                    <li className="px-4 md:py-0 py-5">Contact</li>
+                    <li className="px-4 md:py-0 pt-4 pb-4">News & Events</li>
+                    <li className="px-4 md:py-0 pt-4 pb-4">Academic</li>
+                    <li className="px-4 md:py-0 pt-4 pb-4">Publication</li>
+                    <li className="px-4 md:py-0 pt-4 pb-4">Careers</li>
+                    <li className="px-4 md:py-0 pt-4 pb-4">Contact</li>
                 </ul>
                 
                 {/*-------------------- menus in navbar end ----------------------- */}
