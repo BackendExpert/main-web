@@ -45,10 +45,15 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in About submenu START */}
-                        <ul className={`pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:mx-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
+                        <div className={`pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:mx-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 pb-2 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
                             <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
-                                    <h1 className="text-md">Institute</h1>
+                                    <div className="">
+                                        <h1 className="text-md">Institute</h1>
+                                        <div className="">
+                                            
+                                        </div>
+                                    </div>
                                     <div className="">
                                         <p className="">About Us</p>
                                         <p className="">test 1</p>
@@ -56,7 +61,7 @@ const NavBar = () => {
                                     </div>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                         {/* menus in About submenu END */}
                     </li>
                     <li className="px-4 md:py-0 py-5">News & Events</li>
