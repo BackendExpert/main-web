@@ -9,7 +9,13 @@ const NavBar = () => {
     const [aboutOpen, SetAboutMenu] = useState(false)
 
     // menus of About->institue Submenu
-    
+    const institue = () => {
+        let links =[
+            {name: "About Us", links: "/"},
+            {name: "About Us", links: "/"},
+            {name: "About Us", links: "/"},            
+        ];
+    }
 
   return (
     <div className="text-white bg-gray-700 w-full h-16">
