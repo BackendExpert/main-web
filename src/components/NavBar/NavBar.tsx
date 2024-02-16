@@ -90,7 +90,7 @@ const NavBar = () => {
                                     <div className="flex md:static py-2" onClick={() => SetPeoOpen(!openPeo)}>
                                         <h1 className="md:text-xl">People</h1>
                                         <div className="mt-1">
-                                            <span className="pl-2"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
+                                            <span className="md:hidden pl-2"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></span>
                                         </div>
                                     </div>
                                     <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'hidden'}`}>
