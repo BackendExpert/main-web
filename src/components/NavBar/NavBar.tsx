@@ -121,7 +121,7 @@ const NavBar = () => {
                                 <div className="">
                                     {/* Submenu for leadership */}
                                     <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
-                                        <h1 className="md:text-xl">People</h1>
+                                        <h1 className="md:text-xl">Leadership</h1>
                                         <div className="">
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
@@ -130,9 +130,9 @@ const NavBar = () => {
                                     <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
                                         {/* fetch data from leadership */}
                                         {
-                                            people.map((person) => (
-                                                <a href={person.links}>
-                                                    <p className="py-2">{person.name}</p>
+                                            leadership.map((leader) => (
+                                                <a href={leader.links}>
+                                                    <p className="py-2">{leader.name}</p>
                                                 </a>
                                             ))
                                         }
