@@ -30,7 +30,7 @@ const NavBar = () => {
                          </div>
 
 
-                        <ul className={`py-6 px-12 mt-6 duration-500 rounded bg-gray-900 ${aboutOpen ? 'static' : 'hidden'}`}>
+                        <ul className={`py-6 px-5 mt-6 ${aboutOpen ? 'static' : 'hidden'}`}>
                             <li>hi all</li>
                             <li>hi all</li>
                             <li>hi all</li>
