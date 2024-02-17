@@ -77,8 +77,9 @@ const NavBar = () => {
     // menu for About->Facilities
     
     let facility = [
-        {name: "", links: "/"},
-        {name: "Welfare", links: "/"},
+        {name: "Research Center", links: "/"},
+        {name: "Library", links: "/"},
+        {name: "Conference Facilities", links: "/"},
     ]
 
   return (
