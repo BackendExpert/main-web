@@ -90,6 +90,11 @@ const NavBar = () => {
         {name: "Biological Sciences", links: "/"},
         {name: "Chemical and Physical Sciences", links: "/"},
         {name: "Conference Facilities", links: "/"},
+        {name: "Computer Science, Methematics and Statistis", links: "/"},
+        {name: "Earth and Space Sciences", links: "/"},
+        {name: "Environment Sciences", links: "/"},
+        {name: "Philosophy and Social Sciences", links: "/"},
+
     ]
 
   return (
