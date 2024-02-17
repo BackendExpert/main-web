@@ -55,7 +55,8 @@ const NavBar = () => {
         {name: "Administration Division", links: "/"},
         {name: "Computer Division", links: "/"},      
         {name: "Science Education and Dissemination Unit", links: "/"},      
-        {name: "", links: "/"},   
+        {name: "Instrument and Maintenace Division", links: "/"},  
+        {name: "Computer Division", links: "/"},    
     ]
     
   return (
