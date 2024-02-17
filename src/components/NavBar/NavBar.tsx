@@ -167,9 +167,9 @@ const NavBar = () => {
                                     <div className={`pl-3 pt-2 -pb-4 ${openAdmin ? 'static' : 'md:inline-block hidden'}`}>
                                         {/* fetch data from administration */}
                                         {
-                                            leadership.map((leader) => (
-                                                <a href={leader.links}>
-                                                    <p className="py-2">{leader.name}</p>
+                                            administration.map((admin) => (
+                                                <a href={admin.links}>
+                                                    <p className="py-2">{admin.name}</p>
                                                 </a>
                                             ))
                                         }
