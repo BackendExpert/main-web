@@ -78,7 +78,7 @@ const NavBar = () => {
                             <div className="md:grid grid-cols-4 gap-2">
                                 <div className="">
                                     {/* Submenu for institue */}
-                                    <div className="flex md:static py-2" onClick={() => SetInstOpen(!openins)}>
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetInstOpen(!openins)}>
                                         <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
@@ -99,7 +99,7 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for people */}
-                                    <div className="flex md:static py-2" onClick={() =>SetPeoOpen(!openPeo)}>
+                                    <div className="flex md:static py-2 justify-between" onClick={() =>SetPeoOpen(!openPeo)}>
                                         <h1 className="md:text-xl">People</h1>
                                         <div className="">
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
@@ -120,7 +120,7 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for leadership */}
-                                    <div className="flex md:static py-2" onClick={() => SetLeaderOpen(!openLeader)}>
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetLeaderOpen(!openLeader)}>
                                         <h1 className="md:text-xl">Leadership</h1>
                                         <div className="">
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openLeader ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
