@@ -253,7 +253,7 @@ const NavBar = () => {
                         {/* menus in About submenu END */}
                     </li>
                     <li className="px-4 md:py-0 pt-6 pb-4">News & Events</li>
-                    <li className="px-4 mr-16 md:py-0 pt-6 pb-6">
+                    <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
 
                         {/* Open 'about submenu */}
                         <div onClick={() => SetAcadOpen(!oepnAcad)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
