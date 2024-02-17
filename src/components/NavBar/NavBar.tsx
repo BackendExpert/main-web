@@ -18,6 +18,9 @@ const NavBar = () => {
     // open about->leadership
     const [openLeader, SetLeaderOpen] = useState(false)
 
+    // openabout->Administration
+    const [openAdmin, SetAdminOpen] = useState(false)
+
     // menus of About->institue Submenu
     let institue =[
         {name: "About Us", links: "/"},
@@ -44,6 +47,8 @@ const NavBar = () => {
         {name: "Director", links: "/"},      
         {name: "Research Council", links: "/"},      
     ];
+
+    // menus for About->Administration Submenu
     
   return (
     <div className="text-white bg-gray-700 w-full h-16">
