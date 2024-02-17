@@ -253,14 +253,14 @@ const NavBar = () => {
                         {/* menus in About submenu END */}
                     </li>
                     <li className="px-4 md:py-0 pt-6 pb-4">News & Events</li>
-                    <li className="px-4 mr-12 md:py-0 pt-4 pb-4">
+                    <li className="px-4 mr-16 md:py-0 pt-6 pb-6">
 
                         {/* Open 'about submenu */}
-                        <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-0 pt-1 cursor-pointer">
+                        <div onClick={() => SetAcadOpen(!oepnAcad)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[15px]">
                                 <div className="">Academic</div>
                                 <div className="pt-1 pl-1 ">
-                                    <IonIcon name={aboutOpen ? 'chevron-up' : 'chevron-down'}></IonIcon>
+                                    <IonIcon name={oepnAcad ? 'chevron-up' : 'chevron-down'}></IonIcon>
                                 </div>
                             </div>
                          </div>
