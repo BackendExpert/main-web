@@ -82,6 +82,8 @@ const NavBar = () => {
         {name: "Conference Facilities", links: "/"},
     ]
 
+    const [oepnAcad, SetAcadOpen] = useState(false)
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
@@ -241,7 +243,7 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Life at NIFS */}
-                                    <h1 className="md:text-xl">Life at NIFS</h1>
+                                    <h1 className="py-2 md:text-xl">Life at NIFS</h1>
                                      {/* Life at NIFS END*/}
                                 </div>
 
