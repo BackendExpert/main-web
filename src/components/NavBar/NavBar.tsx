@@ -22,7 +22,7 @@ const NavBar = () => {
     const [openAdmin, SetAdminOpen] = useState(false)
 
     // open about->Society
-    
+    const [openSociety, SetSocietyOpen] = useState(false)
 
     // menus of About->institue Submenu
     let institue =[
