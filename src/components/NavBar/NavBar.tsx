@@ -25,7 +25,7 @@ const NavBar = () => {
     const [openSociety, SetSocietyOpen] = useState(false)
 
     // open about->Facilities Submenu
-    const [oepnFaci, SetFaciOpen]
+    const [oepnFaci, SetFaciOpen] = useState(false)
 
     // menus of About->institue Submenu
     let institue =[
