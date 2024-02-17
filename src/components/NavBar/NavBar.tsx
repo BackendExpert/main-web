@@ -218,6 +218,27 @@ const NavBar = () => {
                                     </div>
                                      {/* Submenu for Society END*/}
                                 </div>
+                                <div className="">
+                                    {/* Submenu for Facilities */}
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetFaciOpen(!oepnFaci)}>
+                                        <h1 className="md:text-xl">Facilities</h1>
+                                        <div className="">
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={oepnFaci ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                        </div>
+                                    </div>
+                                    {/* use inline-block in md:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${oepnFaci ? 'static' : 'md:inline-block hidden'}`}>
+                                        {/* fetch data from Facilities */}
+                                        {
+                                            facility.map((fac) => (
+                                                <a href={fac.links}>
+                                                    <p className="py-2">{fac.name}</p>
+                                                </a>
+                                            ))
+                                        }
+                                    </div>
+                                     {/* Submenu for Facilities END*/}
+                                </div>
 
                             </div>
                         </div>
