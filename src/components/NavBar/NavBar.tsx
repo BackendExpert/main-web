@@ -114,9 +114,9 @@ const NavBar = () => {
 
     // menu for Publication
     let publications = [
-        {name: "Postgraduate Students", links: "/"},
-        {name: "Undergraduate Students", links: "/"},
-        {name: "Pre-University Students", links: "/"},
+        {name: "YSCMR", links: "/"},
+        {name: "Annual Research Review", links: "/"},
+        {name: "E-Repository", links: "/"},
     ]
 
   return (
