@@ -155,6 +155,27 @@ const NavBar = () => {
                                     </div>
                                      {/* Submenu for leadership END*/}
                                 </div>
+                                <div className="">
+                                    {/* Submenu for administration */}
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetAdminOpen(!openAdmin)}>
+                                        <h1 className="md:text-xl">Leadership</h1>
+                                        <div className="">
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openAdmin ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                        </div>
+                                    </div>
+                                    {/* use inline-block in md:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openAdmin ? 'static' : 'md:inline-block hidden'}`}>
+                                        {/* fetch data from administration */}
+                                        {
+                                            leadership.map((leader) => (
+                                                <a href={leader.links}>
+                                                    <p className="py-2">{leader.name}</p>
+                                                </a>
+                                            ))
+                                        }
+                                    </div>
+                                     {/* Submenu for administration END*/}
+                                </div>
 
                             </div>
                         </div>
