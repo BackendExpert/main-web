@@ -376,7 +376,7 @@ const NavBar = () => {
                                 {
                                     publications.map((publication) =>(
                                         <a href={publication.links}>
-                                            <h1 className="md:text-xl">{publication.name}</h1>
+                                            <h1 className="md:text-xl md:py-0 py-2">{publication.name}</h1>
                                         </a>
                                     ))
                                 }
@@ -402,7 +402,7 @@ const NavBar = () => {
                                 {
                                     careers.map((career) =>(
                                         <a href={career.links}>
-                                            <h1 className="md:text-xl">{career.name}</h1>
+                                            <h1 className="md:text-xl md:py-0 py-2">{career.name}</h1>
                                         </a>
                                     ))
                                 }
