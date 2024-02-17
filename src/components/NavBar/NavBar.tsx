@@ -111,7 +111,13 @@ const NavBar = () => {
 
     // open publication menu
     const [oepnPub, SetPubOpem] = useState(false)
-    
+
+    // menu for Publication
+    let publications = [
+        {name: "Postgraduate Students", links: "/"},
+        {name: "Undergraduate Students", links: "/"},
+        {name: "Pre-University Students", links: "/"},
+    ]
 
   return (
     <div className="text-white bg-gray-700 w-full h-16">
