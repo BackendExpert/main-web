@@ -188,14 +188,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for Society */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetAdminOpen(!openAdmin)}>
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetSocietyOpen(!openSociety)}>
                                         <h1 className="md:text-xl">Society</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openAdmin ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openSociety ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
                                     {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openAdmin ? 'static' : 'md:inline-block hidden'}`}>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openSociety ? 'static' : 'md:inline-block hidden'}`}>
                                         {/* fetch data from society */}
                                         {
                                             society.map((soci) => (
