@@ -100,7 +100,13 @@ const NavBar = () => {
         {name: "Earth and Space Sciences", links: "/"},
         {name: "Environment Sciences", links: "/"},
         {name: "Philosophy and Social Sciences", links: "/"},
+    ]
 
+    // menu for Academic->Study
+    let studies = [
+        {name: "Biological Sciences", links: "/"},
+        {name: "Chemical and Physical Sciences", links: "/"},
+        {name: "Conference Facilities", links: "/"},
     ]
 
   return (
