@@ -50,13 +50,15 @@ const NavBar = () => {
 
     // menus for About->Administration Submenu
 
-    let admins =[
+    let administration =[
         {name: "Account Division", links: "/"},
         {name: "Administration Division", links: "/"},
         {name: "Computer Division", links: "/"},      
         {name: "Science Education and Dissemination Unit", links: "/"},      
         {name: "Instrument and Maintenace Division", links: "/"},  
-        {name: "Computer Division", links: "/"},    
+        {name: "Internal Audit Division", links: "/"},    
+        {name: "Office of the Director", links: "/"},  
+        {name: "Procurement and Laboratory Services Division", links: "/"}, 
     ]
     
   return (
