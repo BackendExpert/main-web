@@ -279,7 +279,7 @@ const NavBar = () => {
                     <li className="px-4 md:py-0 pt-6 pb-4">News & Events</li>
                     <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
 
-                        {/* Open 'about submenu */}
+                        {/* Open Academic submenu */}
                         <div onClick={() => SetAcadOpen(!oepnAcad)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[16px]">
                                 <div className="">Academic</div>
@@ -289,7 +289,7 @@ const NavBar = () => {
                             </div>
                          </div>
 
-                        {/* menus in About submenu START */}
+                        {/* menus in Academic submenu START */}
                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${oepnAcad ? 'static' : 'hidden'}`}>
                             <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
