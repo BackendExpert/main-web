@@ -119,6 +119,15 @@ const NavBar = () => {
         {name: "E-Repository", links: "/"},
     ]
 
+    // open Careers menu
+    const [openCareers, SetCareersOpen] = useState(false)
+
+    // menu for Careers
+    let careers = [
+        {name: "Vacanies", links: "/"},
+        {name: "Study", links: "/"},
+    ]
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
