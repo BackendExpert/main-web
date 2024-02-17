@@ -258,7 +258,7 @@ const NavBar = () => {
                         {/* Open 'about submenu */}
                         <div onClick={() => SetAboutMenu(!aboutOpen)} className="text-md absolute ml-0 pt-1 cursor-pointer">
                             <div className="flex -mt-[15px]">
-                                <div className="">About</div>
+                                <div className="">Academic</div>
                                 <div className="pt-1 pl-1 ">
                                     <IonIcon name={aboutOpen ? 'chevron-up' : 'chevron-down'}></IonIcon>
                                 </div>
