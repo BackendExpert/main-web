@@ -144,7 +144,7 @@ const NavBar = () => {
                         </div>
                         {/* menus in About submenu END */}
                     </li>
-                    <li className="px-4 md:py-0 pt-4 pb-4">News & Events</li>
+                    <li className="px-4 md:py-0 pt-6 pb-4">News & Events</li>
                     <li className="px-4 md:py-0 pt-4 pb-4">Academic</li>
                     <li className="px-4 md:py-0 pt-4 pb-4">Publication</li>
                     <li className="px-4 md:py-0 pt-4 pb-4">Careers</li>
