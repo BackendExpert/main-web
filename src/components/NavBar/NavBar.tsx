@@ -82,6 +82,7 @@ const NavBar = () => {
         {name: "Conference Facilities", links: "/"},
     ]
 
+    // menu of Academic Menu
     const [oepnAcad, SetAcadOpen] = useState(false)
 
   return (
