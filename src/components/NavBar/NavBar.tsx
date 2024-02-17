@@ -49,6 +49,13 @@ const NavBar = () => {
     ];
 
     // menus for About->Administration Submenu
+
+    let admins =[
+        {name: "Account Division", links: "/"},
+        {name: "Administration Division", links: "/"},
+        {name: "Computer Division", links: "/"},      
+        {name: "Research Council", links: "/"},      
+    ]
     
   return (
     <div className="text-white bg-gray-700 w-full h-16">
