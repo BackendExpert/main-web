@@ -85,6 +85,13 @@ const NavBar = () => {
     // menu of Academic Menu
     const [oepnAcad, SetAcadOpen] = useState(false)
 
+    // menu for Academic->Research
+    let researches = [
+        {name: "Biological Sciences", links: "/"},
+        {name: "Chemical and Physical Sciences", links: "/"},
+        {name: "Conference Facilities", links: "/"},
+    ]
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
