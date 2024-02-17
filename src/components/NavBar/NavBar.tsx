@@ -158,7 +158,7 @@ const NavBar = () => {
                                 <div className="">
                                     {/* Submenu for administration */}
                                     <div className="flex md:static py-2 justify-between" onClick={() => SetAdminOpen(!openAdmin)}>
-                                        <h1 className="md:text-xl">Leadership</h1>
+                                        <h1 className="md:text-xl">Administration</h1>
                                         <div className="">
                                             <p className="md:hidden pl-2 mt-1"><IonIcon name={openAdmin ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
