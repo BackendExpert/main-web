@@ -314,25 +314,25 @@ const NavBar = () => {
                                      {/* Submenu for institue END*/}
                                 </div>
                                 <div className="">
-                                    {/* Submenu for people */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() =>SetPeoOpen(!openPeo)}>
+                                    {/* Submenu for study */}
+                                    <div className="flex md:static py-2 justify-between" onClick={() =>SetStudyOpen(!openStudy)}>
                                         <h1 className="md:text-xl">People</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openStudy ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
                                     {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'md:inline-block hidden'}`}>
-                                        {/* fetch data from people */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openStudy ? 'static' : 'md:inline-block hidden'}`}>
+                                        {/* fetch data from study */}
                                         {
-                                            people.map((person) => (
-                                                <a href={person.links}>
-                                                    <p className="py-2">{person.name}</p>
+                                            studies.map((study) => (
+                                                <a href={study.links}>
+                                                    <p className="py-2">{study.name}</p>
                                                 </a>
                                             ))
                                         }
                                     </div>
-                                     {/* Submenu for people END*/}
+                                     {/* Submenu for study END*/}
                                 </div>
                             </div>
                         </div>
