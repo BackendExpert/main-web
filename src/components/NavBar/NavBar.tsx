@@ -110,7 +110,7 @@ const NavBar = () => {
     ]
 
     // open publication menu
-    const [oepnPub, SetPubOpem] = useState(false)
+    const [oepnPub, SetPubOpen] = useState(false)
 
     // menu for Publication
     let publications = [
@@ -350,9 +350,9 @@ const NavBar = () => {
                         </div>
                         {/* menus in Academic submenu END */}
                     </li>
-                    <li className="px-4 md:py-0 pt-4 pb-4">
+                    <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
                         {/* Open Publication submenu */}
-                        <div onClick={() => SetPeoOpen(!oepnPub)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
+                        <div onClick={() => SetPubOpen(!oepnPub)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[16px]">
                                 <div className="">Publication</div>
                                 <div className="pt-1 pl-1 ">
