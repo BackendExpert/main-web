@@ -102,11 +102,11 @@ const NavBar = () => {
                                     <div className="flex md:static py-2" onClick={() =>SetPeoOpen(!openPeo)}>
                                         <h1 className="md:text-xl">People</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
                                     {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'md:inline-block hidden'}`}>
                                         {/* fetch data from people */}
                                         {
                                             people.map((person) => (
