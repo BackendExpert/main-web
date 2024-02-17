@@ -18,8 +18,11 @@ const NavBar = () => {
     // open about->leadership
     const [openLeader, SetLeaderOpen] = useState(false)
 
-    // openabout->Administration
+    // open about->Administration
     const [openAdmin, SetAdminOpen] = useState(false)
+
+    // open about->Society
+    
 
     // menus of About->institue Submenu
     let institue =[
