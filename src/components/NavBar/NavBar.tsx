@@ -352,17 +352,17 @@ const NavBar = () => {
                     </li>
                     <li className="px-4 md:py-0 pt-4 pb-4">
                         {/* Open Publication submenu */}
-                        <div onClick={() => SetAcadOpen(!oepnAcad)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
+                        <div onClick={() => SetPeoOpen(!oepnPub)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[16px]">
                                 <div className="">Publication</div>
                                 <div className="pt-1 pl-1 ">
-                                    <IonIcon name={oepnAcad ? 'chevron-up' : 'chevron-down'}></IonIcon>
+                                    <IonIcon name={oepnPub ? 'chevron-up' : 'chevron-down'}></IonIcon>
                                 </div>
                             </div>
                          </div>
 
                         {/* Open Publication submenu Start */}
-                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${oepnAcad ? 'static' : 'hidden'}`}>
+                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${oepnPub ? 'static' : 'hidden'}`}>
                             <div className="md:grid grid-cols-2 gap-2">
                                 {
                                     publications.map((publication) =>(
