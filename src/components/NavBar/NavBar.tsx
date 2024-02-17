@@ -294,19 +294,19 @@ const NavBar = () => {
                             <div className="md:grid grid-cols-2 gap-2">
                                 <div className="">
                                     {/* Submenu for institue */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetInstOpen(!openins)}>
+                                    <div className="flex md:static py-2 justify-between" onClick={() => SetResearchOpen(!openResearch)}>
                                         <h1 className="md:text-xl">Institute</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openResearch ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
                                     {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
+                                    <div className={`pl-3 pt-2 -pb-4 ${openResearch ? 'static' : 'md:inline-block hidden'}`}>
                                         {/* fetch data from institute */}
                                         {
-                                            institue.map((ins) => (
-                                                <a href={ins.links}>
-                                                    <p className="py-2">{ins.name}</p>
+                                            researches.map((research) => (
+                                                <a href={research.links}>
+                                                    <p className="py-2">{research.name}</p>
                                                 </a>
                                             ))
                                         }
