@@ -74,6 +74,13 @@ const NavBar = () => {
         {name: "Welfare", links: "/"},
     ]
 
+    // menu for About->Facilities
+    
+    let facility = [
+        {name: "", links: "/"},
+        {name: "Welfare", links: "/"},
+    ]
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
