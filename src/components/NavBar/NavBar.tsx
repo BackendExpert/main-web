@@ -64,6 +64,13 @@ const NavBar = () => {
         {name: "Procurement and Laboratory Services Division", links: "/"}, 
     ]
     
+    // menu for About->Society Submenu
+
+    let society = [
+        {name: "Young Scientist Association", links: "/"},
+        {name: "Welfare", links: "/"},
+    ]
+
   return (
     <div className="text-white bg-gray-700 w-full h-16">
         <div className="justify-between flex py-4 px-8">
