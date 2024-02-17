@@ -85,6 +85,12 @@ const NavBar = () => {
     // menu of Academic Menu
     const [oepnAcad, SetAcadOpen] = useState(false)
 
+    // open Academic->Research
+    const [openResearch, SetResearchOpen] = useState(false)
+
+    // open Academic->Study
+    const [openStudy, SetStudyOpen] = useState(false)
+
     // menu for Academic->Research
     let researches = [
         {name: "Biological Sciences", links: "/"},
