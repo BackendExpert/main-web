@@ -239,6 +239,11 @@ const NavBar = () => {
                                     </div>
                                      {/* Submenu for Facilities END*/}
                                 </div>
+                                <div className="">
+                                    {/* Life at NIFS */}
+                                    <h1 className="md:text-xl">Life at NIFS</h1>
+                                     {/* Life at NIFS END*/}
+                                </div>
 
                             </div>
                         </div>
