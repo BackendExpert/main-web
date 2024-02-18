@@ -117,7 +117,7 @@ const Footer = () => {
                     }
                 </div>
             </div>
-            <div className="py-8 px-6 flex">
+            <div className="py-8 px-6 flex justify-between">
                 <div className="flex">
                     <img src={Sllogo} alt="SLLOGO" className="w-20 h-20" />
                     <div className="pt-4 px-4 text-md">
