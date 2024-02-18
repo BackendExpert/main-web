@@ -16,8 +16,12 @@ const Footer = () => {
             <div className="md:grid grid-cols-4 gap-2">
                 <div className="">
                     {
-                        about.map((abou) => (
-                            <h1 className="">{abou.title}</h1>  
+                        
+                        about.map((abo) => (
+                            <div className="">
+                                <h1 className="">{abo.title}</h1> 
+                                <p className="">{abo.name}</p> 
+                            </div>
                         ))
                     }
                 </div>
