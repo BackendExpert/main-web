@@ -21,7 +21,15 @@ const Footer = () => {
     ];
     
     //Footer manu Dissemination
-    let dissemination = [
+    let disseminations = [
+        {title: "Dissemination"},
+        {name: "Reports", link: "/"},
+        {name: "Research Publication", link: "/"},
+        {name: "Blog", link: "/"},
+    ];
+
+    //Footer manu Dissemination
+    let contacts = [
         {title: "Dissemination"},
         {name: "Reports", link: "/"},
         {name: "Research Publication", link: "/"},
