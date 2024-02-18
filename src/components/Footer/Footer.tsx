@@ -51,6 +51,11 @@ const Footer = () => {
 
 // -------------------- Footer Menu END -----------------
 
+
+// ------ Footer Social Icons Start --------------
+
+// ------ Footer Social Icons End --------------
+
   return (
     <div className="bg-[#293352] text-white">
         <div className="contaier mx-auto px-12">
@@ -111,6 +116,9 @@ const Footer = () => {
                         <p className="">National Institute of Fundamental Studies</p>
                         <p className="">Ministry of Education</p>                        
                     </div>
+                </div>
+                <div className="">
+                    <a href=""></a>
                 </div>
             </div>
         </div>
