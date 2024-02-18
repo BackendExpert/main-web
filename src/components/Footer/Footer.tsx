@@ -55,11 +55,11 @@ const Footer = () => {
 // ------ Footer Social Icons Start --------------
 
     let scoialIons = [
-        {logo: {FB}, link: "/"},
-        {logo: {Tx}, link: "/"},
-        {logo: {Inster}, link: "/"},
-        {logo: {Youtube}, link: "/"},
-        {logo: {Linkedin}, link: "/"},
+        {logo: FB, link: "/"},
+        {logo: Tx, link: "/"},
+        {logo: Inster, link: "/"},
+        {logo: Youtube, link: "/"},
+        {logo: Linkedin, link: "/"},
     ]
 
 // ------ Footer Social Icons End --------------
@@ -129,7 +129,7 @@ const Footer = () => {
                     {
                         scoialIons.map((sIons) =>(
                             <a href={sIons.link}>
-                                <img src={sIons.img} alt="" />
+                                <img src={sIons.logo} alt="" />
                             </a>
                         ))
                     }
