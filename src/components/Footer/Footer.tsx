@@ -20,7 +20,9 @@ const Footer = () => {
                         about.map((abo) => (
                             <div className="">
                                 <h1 className="">{abo.title}</h1> 
-                                <p className="">{abo.name}</p> 
+                                <a href={abo.link}>
+                                    <p className="">{abo.name}</p>
+                                </a>
                             </div>
                         ))
                     }
