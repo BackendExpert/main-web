@@ -65,6 +65,30 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                <div className="py-12 px-8">
+                    {                        
+                        disseminations.map((dissemination) => (
+                            <div className="">
+                                <h1 className="text-2xl py-2">{dissemination.title}</h1> 
+                                <a href={dissemination.link}>
+                                    <p className="text-md">{dissemination.name}</p>
+                                </a>
+                            </div>
+                        ))
+                    }
+                </div>
+                <div className="py-12 px-8">
+                    {                        
+                        contacts.map((contact) => (
+                            <div className="">
+                                <h1 className="text-2xl py-2">{contact.title}</h1> 
+                                <a href={contact.link}>
+                                    <p className="text-md">{contact.name}</p>
+                                </a>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     </div>
