@@ -1,6 +1,11 @@
 // import the logos Start
 
-
+import Sllogo from "../../assets/pngegg.png"
+import FB from "../../assets/faceb.png"
+import FB from "../../assets/faceb.png"
+import FB from "../../assets/faceb.png"
+import FB from "../../assets/faceb.png"
+import FB from "../../assets/faceb.png"
 
 // import the logos END
 
