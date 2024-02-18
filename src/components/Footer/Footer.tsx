@@ -20,6 +20,14 @@ const Footer = () => {
         {name: "Young Scientist Association (YSA)", link: "/"},
     ];
     
+    //Footer manu Dissemination
+    let dissemination = [
+        {title: "Dissemination"},
+        {name: "Reports", link: "/"},
+        {name: "Research Publication", link: "/"},
+        {name: "Blog", link: "/"},
+    ];
+
   return (
     <div className="bg-[#293352] text-white">
         <div className="contaier mx-auto px-12">
