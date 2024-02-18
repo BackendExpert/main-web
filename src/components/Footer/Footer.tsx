@@ -54,6 +54,14 @@ const Footer = () => {
 
 // ------ Footer Social Icons Start --------------
 
+    let scoialIons = [
+        {img: {FB}, link: "/"},
+        {img: {Linkedin}, link: "/"},
+        {img: {Inster}, link: "/"},
+        {img: {FB}, link: "/"},
+        {img: {FB}, link: "/"},
+    ]
+
 // ------ Footer Social Icons End --------------
 
   return (
