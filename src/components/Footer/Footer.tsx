@@ -55,11 +55,11 @@ const Footer = () => {
 // ------ Footer Social Icons Start --------------
 
     let scoialIons = [
-        {img: {FB}, link: "/"},
-        {img: {Tx}, link: "/"},
-        {img: {Inster}, link: "/"},
-        {img: {Youtube}, link: "/"},
-        {img: {Linkedin}, link: "/"},
+        {logo: {FB}, link: "/"},
+        {logo: {Tx}, link: "/"},
+        {logo: {Inster}, link: "/"},
+        {logo: {Youtube}, link: "/"},
+        {logo: {Linkedin}, link: "/"},
     ]
 
 // ------ Footer Social Icons End --------------
@@ -127,7 +127,11 @@ const Footer = () => {
                 </div>
                 <div className="">
                     {
-                        scoialIons.map(sIons)
+                        scoialIons.map((sIons) =>(
+                            <a href={sIons.link}>
+                                <img src={sIons.img} alt="" />
+                            </a>
+                        ))
                     }
                 </div>
             </div>
