@@ -117,7 +117,7 @@ const Footer = () => {
                     }
                 </div>
             </div>
-            <div className="py-8 px-6">
+            <div className="py-8 px-6 flex">
                 <div className="flex">
                     <img src={Sllogo} alt="SLLOGO" className="w-20 h-20" />
                     <div className="pt-4 px-4 text-md">
@@ -125,18 +125,18 @@ const Footer = () => {
                         <p className="">Ministry of Education</p>                        
                     </div>
                 </div>
-                <div className="">
+                <div className="flex pt-5">
                     {
                         scoialIons.map((sIons) =>(
                             <a href={sIons.link}>
-                                <img src={sIons.logo} alt="" />
+                                <img src={sIons.logo} alt="" className="h-10"/>
                             </a>
                         ))
                     }
                 </div>
             </div>
             <div className="">
-                <p className="">&copy;National Institute of Fundamental Studies, Hanthana Road, Kandy, Sri Lanka</p>
+                <p className="">&copy; National Institute of Fundamental Studies, Hanthana Road, Kandy, Sri Lanka</p>
             </div>
         </div>
     </div>
