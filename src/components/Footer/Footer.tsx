@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
             <div className="">
                 <div className="">
-
+                    <img src={Sllogo} alt="" />
                 </div>
             </div>
         </div>
