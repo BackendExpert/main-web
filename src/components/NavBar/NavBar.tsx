@@ -146,7 +146,7 @@ const NavBar = () => {
                     <li className="px-4 md:py-0 py-5 ">Home</li>
                     <li className="px-4 mr-12 md:py-0 pt-4 pb-4">
 
-                        {/* Open 'about submenu */}
+                        {/* Open about submenu */}
                         <div onClick={() => SetAboutMenu(!aboutOpen)}  className="text-md absolute ml-0 pt-1 cursor-pointer">
                             <div className="flex -mt-[16px]">
                                 <div className="">About</div>
