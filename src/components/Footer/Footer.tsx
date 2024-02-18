@@ -104,9 +104,13 @@ const Footer = () => {
                     }
                 </div>
             </div>
-            <div className="">
-                <div className="">
-                    <img src={Sllogo} alt="SLLOGO" className="w-8 h-9" />
+            <div className="py-8 px-6">
+                <div className="flex">
+                    <img src={Sllogo} alt="SLLOGO" className="w-20 h-20" />
+                    <div className="pt-4 px-4 text-md">
+                        <p className="">National Institute of Fundamental Studies</p>
+                        <p className="">Ministry of Education</p>                        
+                    </div>
                 </div>
             </div>
         </div>
