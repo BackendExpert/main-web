@@ -1,7 +1,10 @@
 
-
-
 const Footer = () => {
+    let About = [
+        {title: "About"},
+        {name: "", link: ""},
+    ];
+
   return (
     <div className="">
         <div className="contaier mx-auto px-12">
