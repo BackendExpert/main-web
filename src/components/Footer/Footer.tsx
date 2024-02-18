@@ -36,6 +36,18 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                <div className="py-12 px-8">
+                    {                        
+                        research.map((res) => (
+                            <div className="">
+                                <h1 className="text-2xl py-2">{res.title}</h1> 
+                                <a href={res.link}>
+                                    <p className="text-md">{res.name}</p>
+                                </a>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     </div>
