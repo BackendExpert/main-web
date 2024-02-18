@@ -68,20 +68,25 @@ const Footer = () => {
     <div className="bg-[#293352] text-white">
         <div className="contaier mx-auto px-12">
             <div className="md:grid grid-cols-4 gap-2">
-                
+
                 {/* ------------------------- Footer Menu Start ----------------------- */}
-                <div className="py-12 md:px-8">
-                    {                        
-                        about.map((abo) => (
-                            <div className="">
-                                <h1 className="text-2xl py-2">{abo.title}</h1> 
-                                <a href={abo.link}>
-                                    <p className="text-md">{abo.name}</p>
-                                </a>
-                            </div>
-                        ))
-                    }
-                </div>
+
+                {/* About Start */}
+                    <div className="py-12 md:px-8">
+                        {                        
+                            about.map((abo) => (
+                                <div className="">
+                                    <h1 className="text-2xl py-2">{abo.title}</h1> 
+                                    <a href={abo.link}>
+                                        <p className="text-md">{abo.name}</p>
+                                    </a>
+                                </div>
+                            ))
+                        }
+                    </div>
+                {/* About END */}
+
+                {/* Research Start */}
                 <div className="py-12 md:px-8">
                     {                        
                         research.map((res) => (
@@ -94,6 +99,9 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                {/* Research End */}
+
+                {/* Disseminations Start */}
                 <div className="py-12 md:px-8">
                     {                        
                         disseminations.map((dissemination) => (
@@ -119,6 +127,9 @@ const Footer = () => {
                     }
                 </div>
             </div>
+
+            {/* ------------------------- Footer Menu END ----------------------- */}
+
             <div className="py-8 md:px-6 md:flex md:justify-between">
                 <div className="md:flex">
                     <img src={Sllogo} alt="SLLOGO" className="w-20 h-20 md:ml-0 ml-[35%]" />
