@@ -30,10 +30,11 @@ const Footer = () => {
 
     //Footer manu Dissemination
     let contacts = [
-        {title: "Dissemination"},
-        {name: "Reports", link: "/"},
-        {name: "Research Publication", link: "/"},
-        {name: "Blog", link: "/"},
+        {title: "Contact"},
+        {name: "Directory", link: "/"},
+        {name: "Right to Information", link: "/"},
+        {name: "Scientists", link: "/"},
+        {name: "Staff Profile", link: "/"},
     ];
 
   return (
