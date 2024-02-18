@@ -12,6 +12,7 @@ import Tx from "../../assets/tx.png"
 
 const Footer = () => {
 
+// Footer Menus Stert
     // Footer menu About
     let about = [
         {title: "About"},
@@ -47,6 +48,8 @@ const Footer = () => {
         {name: "Scientists", link: "/"},
         {name: "Staff Profile", link: "/"},
     ];
+
+// Footer Menu END
 
   return (
     <div className="bg-[#293352] text-white">
