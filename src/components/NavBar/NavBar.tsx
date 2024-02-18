@@ -142,7 +142,7 @@ const NavBar = () => {
                 </div>
 
                 {/*-------------------- menus in navbar start ----------------------- */}
-                <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-gray-700 bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
+                <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-[#293352] bg-gray-800 md:z-auto z-[-1] md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
                     <li className="px-4 md:py-0 py-5 ">Home</li>
                     <li className="px-4 mr-12 md:py-0 pt-4 pb-4">
 
