@@ -130,7 +130,7 @@ const NavBar = () => {
 
   return (
     <div className="text-white bg-[#293352] w-full h-16">
-        <div className="justify-between flex py-4 px-8">
+        <div className="justify-between flex py-4 px-16">
             <div className="flex ">
                 <span className=""><IonIcon size="large" name="newspaper"></IonIcon></span>
                 <span className="pl-4 pt-0 text-xl">Logo</span>
