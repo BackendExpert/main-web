@@ -114,6 +114,10 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                {/* Disseminations END */}
+
+
+                {/* Contacts Start */}
                 <div className="py-12 md:px-8">
                     {                        
                         contacts.map((contact) => (
@@ -126,11 +130,15 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                {/* Contacts End */}
             </div>
 
             {/* ------------------------- Footer Menu END ----------------------- */}
 
+            
             <div className="py-8 md:px-6 md:flex md:justify-between">
+
+                {/* Logo With Text Start */}
                 <div className="md:flex">
                     <img src={Sllogo} alt="SLLOGO" className="w-20 h-20 md:ml-0 ml-[35%]" />
                     <div className="pt-4 md:px-4 text-md md:text-left text-center">
@@ -138,6 +146,9 @@ const Footer = () => {
                         <p className="">Ministry of Education</p>                        
                     </div>
                 </div>
+                {/* Logo With Text End */}
+
+                {/* Social Icons Start */}
                 <div className="flex pt-5">
                     {
                         scoialIons.map((sIons) =>(
@@ -147,10 +158,14 @@ const Footer = () => {
                         ))
                     }
                 </div>
+                {/* Social Icons End */}
             </div>
+
+            {/* Footer centered text */}
             <div className="pt-4 pb-8 text-center">
                 <p className="">&copy; National Institute of Fundamental Studies, Hanthana Road, Kandy, Sri Lanka</p>
             </div>
+            {/* Footer centered text */}
         </div>
     </div>
   )
