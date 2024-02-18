@@ -1,3 +1,9 @@
+// import the logos Start
+
+
+
+// import the logos END
+
 
 const Footer = () => {
 
@@ -91,7 +97,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="">
-                <div className=""></div>
+                <div className="">
+
+                </div>
             </div>
         </div>
     </div>
