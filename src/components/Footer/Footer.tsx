@@ -126,7 +126,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="">
-                    <a href=""></a>
+                    {
+                        scoialIons.map(sIons)
+                    }
                 </div>
             </div>
         </div>
