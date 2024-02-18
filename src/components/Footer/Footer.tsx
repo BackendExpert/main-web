@@ -5,7 +5,7 @@ import FB from "../../assets/faceb.png"
 import Linkedin from "../../assets/linkedin.png"
 import Inster from "../../assets/inster.png"
 import Youtube from "../../assets/faceb.png"
-import FB from "../../assets/faceb.png"
+import Tx from "../../assets/tx.png"
 
 // import the logos END
 
