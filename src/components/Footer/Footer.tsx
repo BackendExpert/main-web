@@ -135,6 +135,9 @@ const Footer = () => {
                     }
                 </div>
             </div>
+            <div className="">
+                <p className="">&copy;National Institute of Fundamental Studies, Hanthana Road, Kandy, Sri Lanka</p>
+            </div>
         </div>
     </div>
   )
