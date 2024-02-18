@@ -9,19 +9,18 @@ const Footer = () => {
         {name: "Join", link: "/"},
 
     ];
-
+    
   return (
-    <div className="">
+    <div className="bg-[#293352] text-white">
         <div className="contaier mx-auto px-12">
             <div className="md:grid grid-cols-4 gap-2">
-                <div className="">
-                    {
-                        
+                <div className="py-12 px-8">
+                    {                        
                         about.map((abo) => (
                             <div className="">
-                                <h1 className="">{abo.title}</h1> 
+                                <h1 className="text-2xl py-2">{abo.title}</h1> 
                                 <a href={abo.link}>
-                                    <p className="">{abo.name}</p>
+                                    <p className="text-md">{abo.name}</p>
                                 </a>
                             </div>
                         ))
