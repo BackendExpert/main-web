@@ -1,5 +1,7 @@
 
 const Footer = () => {
+
+    // Footer menu About
     let about = [
         {title: "About"},
         {name: "Board of Governors", link: "/"},
@@ -7,7 +9,15 @@ const Footer = () => {
         {name: "Research Council", link: "/"},
         {name: "Alumni", link: "/"},
         {name: "Join", link: "/"},
+    ];
 
+    //Footer manu Research
+    let research = [
+        {title: "Research"},
+        {name: "Research Division", link: "/"},
+        {name: "Research Collaboration", link: "/"},
+        {name: "Research Funding", link: "/"},
+        {name: "Young Scientist Association (YSA)", link: "/"},
     ];
     
   return (
