@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
             <div className="">
                 <div className="">
-                    <img src={Sllogo} alt="SLLOGO" className="2-8 h-9" />
+                    <img src={Sllogo} alt="SLLOGO" className="w-8 h-9" />
                 </div>
             </div>
         </div>
