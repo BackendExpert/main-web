@@ -14,11 +14,11 @@ const Contact = () => {
     //data for social Accounts
 
     let socialAccounts = [
-        {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
-        {logo: <IonIcon name="logo-twitter"></IonIcon>, name: "Twitter"},
-        {logo: <IonIcon name="logo-instagram"></IonIcon>, name: "Instagram"},
-        {logo: <IonIcon name="logo-youtube"></IonIcon>, name: "Youtube"},
-        {logo: <IonIcon name="logo-linkedin"></IonIcon>, name: "LinkedIn"},        
+        {logo: <IonIcon name="logo-facebook" size="large"></IonIcon>, name: "Facebook"},
+        {logo: <IonIcon name="logo-twitter" size="large"></IonIcon>, name: "Twitter"},
+        {logo: <IonIcon name="logo-instagram" size="large"></IonIcon>, name: "Instagram"},
+        {logo: <IonIcon name="logo-youtube" size="large"></IonIcon>, name: "Youtube"},
+        {logo: <IonIcon name="logo-linkedin" size="large"></IonIcon>, name: "LinkedIn"},        
     ];
 
   return (
@@ -142,7 +142,12 @@ const Contact = () => {
 
                     {
                         socialAccounts.map((socialAccount) => (
-                            
+                            <div className="">
+                                <div className="">
+                                    <p className="">{socialAccount.logo}</p>
+                                    <p className="">{socialAccount.name}</p>
+                                </div>
+                            </div>
                         ))
                     }
 
