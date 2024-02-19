@@ -1,7 +1,7 @@
 
 const Scientist = () => {
   return (
-    <div>Scientist</div>
+    <div className="container mx-auto px-32">Scientist</div>
   )
 }
 
