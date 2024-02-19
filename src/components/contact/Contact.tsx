@@ -1,8 +1,6 @@
 //import reactions
 import IonIcon from "@reacticons/ionicons"
 
-
-
 const Contact = () => {
     // data for Enquiries
     let enquiries = [
@@ -12,6 +10,8 @@ const Contact = () => {
         {title: "Website Enquiries", email: "web@nifs.ac.lk"},
         {title: "Right to Information", email: "rit@nifs.ac.lk"},        
     ];
+
+    //data for social Accounts
 
   return (
     <div className="container mx-auto px-32 py-16 text-[#293352]">
@@ -111,6 +111,7 @@ const Contact = () => {
                 <hr className="mb-4" />
 
                 <div className="lg:grid grid-cols-3 gap-3">
+                    {/* fetch data from enquiries */}
                     {
                         enquiries.map((enquiry) => (
                             <div className="">
@@ -119,11 +120,18 @@ const Contact = () => {
                             </div>
                         ))
                     }
+                    {/* fetch data from enquiries  END*/}
                 </div>
             </div>
                 {/*---------------------------- Enquiries Start* --------------------------------*/}
 
                 {/*---------------------------- Social Accounts Start* --------------------------------*/}
+            <div className="pt-8">
+                <div className="lg:grid gird-cols-3 gap-3">
+
+                </div>
+            </div>
+
                 {/*---------------------------- Social Accounts End* --------------------------------*/}
         </div>
     </div>
