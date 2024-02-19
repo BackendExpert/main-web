@@ -14,11 +14,11 @@ const Contact = () => {
     //data for social Accounts
 
     let socialAccounts = [
-        {logo: <IonIcon name="logo-facebook" size="large"></IonIcon>, name: "Facebook"},
-        {logo: <IonIcon name="logo-twitter" size="large"></IonIcon>, name: "Twitter"},
-        {logo: <IonIcon name="logo-instagram" size="large"></IonIcon>, name: "Instagram"},
-        {logo: <IonIcon name="logo-youtube" size="large"></IonIcon>, name: "Youtube"},
-        {logo: <IonIcon name="logo-linkedin" size="large"></IonIcon>, name: "LinkedIn"},        
+        {logo: <IonIcon name="logo-facebook" size="large"></IonIcon>, name: "Facebook", link: "/"},
+        {logo: <IonIcon name="logo-twitter" size="large"></IonIcon>, name: "Twitter", link: "/"},
+        {logo: <IonIcon name="logo-instagram" size="large"></IonIcon>, name: "Instagram", link: "/"},
+        {logo: <IonIcon name="logo-youtube" size="large"></IonIcon>, name: "Youtube", link: "/"},
+        {logo: <IonIcon name="logo-linkedin" size="large"></IonIcon>, name: "LinkedIn", link: "/"},        
     ];
 
   return (
