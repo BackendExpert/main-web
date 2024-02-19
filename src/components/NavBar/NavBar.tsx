@@ -130,14 +130,14 @@ const NavBar = () => {
 
   return (
     <div className="text-white bg-[#293352] w-full h-16">
-        <div className="justify-between flex py-4 px-24">
+        <div className="justify-between flex py-4 md:px-24 px-12">
             <div className="flex ">
                 <span className=""><IonIcon size="large" name="newspaper"></IonIcon></span>
                 <span className="pl-4 pt-0 text-xl">Logo</span>
             </div>
             <div className="">
                 {/* open main navbar when mobile screen for that md:hidden */}
-                <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-7 top-4 cursor-pointer md:hidden">
+                <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-9 top-4 cursor-pointer md:hidden">
                     <IonIcon name={menuOpen ? 'close' : 'menu'}></IonIcon>
                 </div>
 
