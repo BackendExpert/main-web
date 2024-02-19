@@ -6,11 +6,11 @@ import UpCount from "react-countup"
 
 
 let coutupInfor = [
-    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100},
-    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100},
-    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100},
-    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100},
-    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100},    
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 12},
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 54},
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 450},
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 8},
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 1000},    
 ];
 
 const CountUp = () => {
