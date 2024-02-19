@@ -6,7 +6,10 @@ const Scientist = () => {
         <div className="">
             <div className="lg:grid grid-cols-5 gap-2">
                 <div className="">
-                    
+                    <p className="">Sort By</p>
+                    <div className="">
+                        
+                    </div>
                 </div>
             </div>
         </div>
