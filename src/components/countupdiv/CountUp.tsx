@@ -1,6 +1,8 @@
 const CountUp = () => {
   return (
-    <div>CountUp</div>
+    <div className="container mx-auto px-32">
+        
+    </div>
   )
 }
 
