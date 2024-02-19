@@ -92,7 +92,8 @@ const Contact = () => {
             </div>
 
             <div className="">
-                
+                <h2 className="text-2xl font-semibold">Enquiries</h2>
+                <hr className="mb-4" />
             </div>
         </div>
     </div>
