@@ -6,6 +6,10 @@ const Contact = () => {
         <div className="my-8">
             <h2 className="text-2xl font-semibold">Office Location</h2>
             <hr className="mb-4" />
+
+            <div className="lg:grid grid-cols-3 gap-4">
+                
+            </div>
         </div>
     </div>
   )
