@@ -140,10 +140,10 @@ const Contact = () => {
                 <div className="lg:grid grid-cols-3 gap-3">
                     {/* fetch data from socialAccounts */}
                     {
-                        socialAccounts.map((enquiry) => (
+                        socialAccounts.map((socialAccount) => (
                             <div className="">
-                                <p className="text-xl font-semibold">{enquiry.title}</p>
-                                <p className="pl-8 py-4">{enquiry.email}</p>
+                                <p className="text-xl font-semibold">{socialAccount.logo}</p>
+                                <p className="pl-8 py-4">{socialAccount.name}</p>
                             </div>
                         ))
                     }
