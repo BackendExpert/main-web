@@ -138,7 +138,15 @@ const Contact = () => {
                 <h2 className="text-2xl font-semibold">Social Media</h2>
                 <hr className="mb-4" />
                 <div className="lg:grid gird-cols-3 gap-3">
+                    {/* fetch data from socialAccounts START */}
 
+                    {
+                        socialAccounts.map((socialAccount) => (
+                            
+                        ))
+                    }
+
+                    {/* fetch data from socialAccounts END */}
                 </div>
             </div>
 
