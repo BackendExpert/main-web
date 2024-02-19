@@ -371,7 +371,7 @@ const NavBar = () => {
                          </div>
 
                         {/* Open Publication submenu Start */}
-                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[9%] lg:w-10/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${oepnPub ? 'static' : 'hidden'}`}>
+                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${oepnPub ? 'static' : 'hidden'}`}>
                             <div className="lg:grid grid-cols-3 gap-2">
                                 {
                                     publications.map((publication) =>(
@@ -397,7 +397,7 @@ const NavBar = () => {
                          </div>
 
                         {/* Open Careers submenu Start */}
-                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[9%] lg:w-10/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${openCareers ? 'static' : 'hidden'}`}>
+                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${openCareers ? 'static' : 'hidden'}`}>
                             <div className="lg:grid grid-cols-3 gap-2">
                                 {
                                     careers.map((career) =>(
