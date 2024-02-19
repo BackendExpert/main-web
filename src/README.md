@@ -3,3 +3,6 @@
 - components
 - - contact
 - - countupdiv
+- - Footer
+- - Navbar
+- - Scientist 
