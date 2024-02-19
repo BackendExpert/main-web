@@ -91,7 +91,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="">
+            <div className="pt-8">
                 <h2 className="text-2xl font-semibold">Enquiries</h2>
                 <hr className="mb-4" />
             </div>
