@@ -13,7 +13,7 @@ const Contact = () => {
 
     //data for social Accounts
 
-    let socialAccount = [
+    let socialAccounts = [
         {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-twitter"></IonIcon>, name: "Twitter"},
         {logo: <IonIcon name="logo-instagram"></IonIcon>, name: "Instagram"},
@@ -135,6 +135,8 @@ const Contact = () => {
 
                 {/*---------------------------- Social Accounts Start* --------------------------------*/}
             <div className="pt-8">
+                <h2 className="text-2xl font-semibold">Social Media</h2>
+                <hr className="mb-4" />
                 <div className="lg:grid gird-cols-3 gap-3">
 
                 </div>
