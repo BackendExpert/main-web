@@ -56,11 +56,19 @@ const Scientist = () => {
                             <p className="">Honorary Visiting Research Professer</p>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="mb-12">
                         <img src="https://wallpaperaccess.com/full/1617671.jpg" alt="" className="rounded"/>
+                        <div className="-mt-16 text-white pl-4">
+                            <p className="font-bold">Prof.Ananda Kulasooriya</p>
+                            <p className="">Honorary Visiting Research Professer</p>
+                        </div>
                     </div>
-                    <div className="">
+                    <div className="mb-12">
                         <img src="https://wallpaperaccess.com/full/1617671.jpg" alt="" className="rounded"/>
+                        <div className="-mt-16 text-white pl-4">
+                            <p className="font-bold">Prof.Ananda Kulasooriya</p>
+                            <p className="">Honorary Visiting Research Professer</p>
+                        </div>
                     </div>
                 </div>
             </div>
