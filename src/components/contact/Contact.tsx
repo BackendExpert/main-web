@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons"
 
 const Contact = () => {
   return (
@@ -15,6 +16,25 @@ const Contact = () => {
                         <p>Hanthana Road</p>
                         <p>Kandy</p>
                         <p>Sri Lanka</p>
+                    </div>
+
+                    <div className="flex py-8">
+                        <p className="py-4">
+                            <IonIcon name="call" size="large"></IonIcon>
+                        </p>
+                        <div className="pl-2">
+                            <p>(+94) 81 22 32 106</p>
+                            <p>(+94) 81 22 32 107</p>
+                            <p>(+94) 81 22 32 131</p>
+                        </div>
+                    </div>
+                    <div className="flex py-8">
+                        <p className="py-4">
+                            <IonIcon name="call" size="large"></IonIcon>
+                        </p>
+                        <div className="pl-2">
+                            <p>info@nifs.ac.lk</p>
+                        </div>
                     </div>
                 </div>
             </div>
