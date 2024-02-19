@@ -22,7 +22,7 @@ const Scientist = () => {
                     </div>
                 </div>
                 <div className="">
-                    <button className="bg-[#293352] px-8 py-2 text-white rounded-3xl">
+                    <button className="bg-[#293352] px-8 py-2 text-white rounded-3xl mt-9 ml-2">
                         Apply
                     </button>
                 </div>
