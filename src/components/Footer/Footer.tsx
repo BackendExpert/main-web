@@ -67,12 +67,12 @@ const Footer = () => {
   return (
     <div className="bg-[#293352] text-white">
         <div className="contaier mx-auto px-20">
-            <div className="md:grid grid-cols-4 gap-2">
+            <div className="lg:grid grid-cols-4 gap-2">
 
                 {/* ------------------------- Footer Menu Start ----------------------- */}
 
                 {/* About Start */}
-                    <div className="py-12 md:px-8">
+                    <div className="py-12 lg:px-8">
                         {                        
                             about.map((abo) => (
                                 <div className="">
@@ -87,7 +87,7 @@ const Footer = () => {
                 {/* About END */}
 
                 {/* Research Start */}
-                <div className="py-12 md:px-8">
+                <div className="py-12 lg:px-8">
                     {                        
                         research.map((res) => (
                             <div className="">
@@ -102,7 +102,7 @@ const Footer = () => {
                 {/* Research End */}
 
                 {/* Disseminations Start */}
-                <div className="py-12 md:px-8">
+                <div className="py-12 lg:px-8">
                     {                        
                         disseminations.map((dissemination) => (
                             <div className="">
@@ -118,7 +118,7 @@ const Footer = () => {
 
 
                 {/* Contacts Start */}
-                <div className="py-12 md:px-8">
+                <div className="py-12 lg:px-8">
                     {                        
                         contacts.map((contact) => (
                             <div className="">
@@ -136,12 +136,12 @@ const Footer = () => {
             {/* ------------------------- Footer Menu END ----------------------- */}
 
             
-            <div className="py-8 md:px-6 md:flex md:justify-between">
+            <div className="py-8 lg:px-6 lg:flex lg:justify-between">
 
                 {/* Logo With Text Start */}
-                <div className="md:flex">
-                    <img src={Sllogo} alt="SLLOGO" className="w-20 h-20 md:ml-0 ml-[35%]" />
-                    <div className="pt-4 md:px-4 text-md md:text-left text-center">
+                <div className="lg:flex">
+                    <img src={Sllogo} alt="SLLOGO" className="w-20 h-20 lg:ml-0 ml-[35%]" />
+                    <div className="pt-4 lg:px-4 text-md lg:text-left text-center">
                         <p className="">National Institute of Fundamental Studies</p>
                         <p className="">Ministry of Education</p>                        
                     </div>
@@ -153,7 +153,7 @@ const Footer = () => {
                     {
                         scoialIons.map((sIons) =>(
                             <a href={sIons.link}>
-                                <img src={sIons.logo} alt="" className="h-10 md:px-4 px-2"/>
+                                <img src={sIons.logo} alt="" className="h-10 lg:px-4 px-2"/>
                             </a>
                         ))
                     }

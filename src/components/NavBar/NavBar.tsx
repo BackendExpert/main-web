@@ -130,21 +130,21 @@ const NavBar = () => {
 
   return (
     <div className="text-white bg-[#293352] w-full h-16">
-        <div className="justify-between flex py-4 md:px-24 px-12">
+        <div className="justify-between flex py-4 lg:px-24 px-12">
             <div className="flex ">
                 <span className=""><IonIcon size="large" name="newspaper"></IonIcon></span>
                 <span className="pl-4 pt-0 text-xl">Logo</span>
             </div>
             <div className="">
-                {/* open main navbar when mobile screen for that md:hidden */}
-                <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-9 top-4 cursor-pointer md:hidden">
+                {/* open main navbar when mobile screen for that lg:hidden */}
+                <div onClick={() => SetOpenMenu(!menuOpen)} className="text-3xl absolute right-9 top-4 cursor-pointer lg:hidden">
                     <IonIcon name={menuOpen ? 'close' : 'menu'}></IonIcon>
                 </div>
 
                 {/*-------------------- menus in navbar start ----------------------- */}
-                <ul className={`md:flex md:items-center absolute md:static md:pb-0 pb-10 md:bg-[#293352] bg-gray-800 md:mt-0 mt-[-15px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
-                    <li className="px-4 md:py-0 py-5 ">Home</li>
-                    <li className="px-4 mr-12 md:py-0 pt-4 pb-4">
+                <ul className={`lg:flex lg:items-center absolute lg:static lg:pb-0 pb-10 lg:bg-[#293352] bg-gray-800 lg:mt-0 mt-[-15px] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${menuOpen ? 'top-20' : 'top-[-500px]'}`}>
+                    <li className="px-4 lg:py-0 py-5 ">Home</li>
+                    <li className="px-4 mr-12 lg:py-0 pt-4 pb-4">
 
                         {/* Open about submenu */}
                         <div onClick={() => SetAboutMenu(!aboutOpen)}  className="text-md absolute ml-0 pt-1 cursor-pointer">
@@ -157,18 +157,18 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in About submenu START */}
-                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
-                            <div className="md:grid grid-cols-4 gap-2">
+                        <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${aboutOpen ? 'static' : 'hidden'}`}>
+                            <div className="lg:grid grid-cols-4 gap-2">
                                 <div className="">
                                     {/* Submenu for institue */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetInstOpen(!openins)}>
-                                        <h1 className="md:text-xl">Institute</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetInstOpen(!openins)}>
+                                        <h1 className="lg:text-xl">Institute</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openins ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openins ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from institute */}
                                         {
                                             institue.map((ins) => (
@@ -182,14 +182,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for people */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() =>SetPeoOpen(!openPeo)}>
-                                        <h1 className="md:text-xl">People</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() =>SetPeoOpen(!openPeo)}>
+                                        <h1 className="lg:text-xl">People</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openPeo ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openPeo ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from people */}
                                         {
                                             people.map((person) => (
@@ -203,14 +203,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for leadership */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetLeaderOpen(!openLeader)}>
-                                        <h1 className="md:text-xl">Leadership</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetLeaderOpen(!openLeader)}>
+                                        <h1 className="lg:text-xl">Leadership</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openLeader ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openLeader ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openLeader ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openLeader ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from leadership */}
                                         {
                                             leadership.map((leader) => (
@@ -224,14 +224,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for administration */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetAdminOpen(!openAdmin)}>
-                                        <h1 className="md:text-xl">Administration</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetAdminOpen(!openAdmin)}>
+                                        <h1 className="lg:text-xl">Administration</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openAdmin ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openAdmin ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openAdmin ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openAdmin ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from administration */}
                                         {
                                             administration.map((admin) => (
@@ -245,14 +245,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for Society */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetSocietyOpen(!openSociety)}>
-                                        <h1 className="md:text-xl">Society</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetSocietyOpen(!openSociety)}>
+                                        <h1 className="lg:text-xl">Society</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openSociety ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openSociety ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openSociety ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openSociety ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from society */}
                                         {
                                             society.map((soci) => (
@@ -266,14 +266,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for Facilities */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetFaciOpen(!oepnFaci)}>
-                                        <h1 className="md:text-xl">Facilities</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetFaciOpen(!oepnFaci)}>
+                                        <h1 className="lg:text-xl">Facilities</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={oepnFaci ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={oepnFaci ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${oepnFaci ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${oepnFaci ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from Facilities */}
                                         {
                                             facility.map((fac) => (
@@ -287,7 +287,7 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Life at NIFS */}
-                                    <h1 className="py-2 md:text-xl">Life at NIFS</h1>
+                                    <h1 className="py-2 lg:text-xl">Life at NIFS</h1>
                                      {/* Life at NIFS END*/}
                                 </div>
 
@@ -295,10 +295,10 @@ const NavBar = () => {
                         </div>
                         {/* menus in About submenu END */}
                     </li>
-                    <li className="px-4 md:py-0 pt-6 pb-4">
+                    <li className="px-4 lg:py-0 pt-6 pb-4">
                         <a href="">News & Events</a>
                     </li>
-                    <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
+                    <li className="px-4 mr-20 lg:py-0 pt-6 pb-6">
 
                         {/* Open Academic submenu */}
                         <div onClick={() => SetAcadOpen(!oepnAcad)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
@@ -311,18 +311,18 @@ const NavBar = () => {
                          </div>
 
                         {/* menus in Academic submenu START */}
-                        <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${oepnAcad ? 'static' : 'hidden'}`}>
-                            <div className="md:grid grid-cols-2 gap-2">
+                        <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${oepnAcad ? 'static' : 'hidden'}`}>
+                            <div className="lg:grid grid-cols-2 gap-2">
                                 <div className="">
                                     {/* Submenu for research */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() => SetResearchOpen(!openResearch)}>
-                                        <h1 className="md:text-xl">Research</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() => SetResearchOpen(!openResearch)}>
+                                        <h1 className="lg:text-xl">Research</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openResearch ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openResearch ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openResearch ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openResearch ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from research */}
                                         {
                                             researches.map((research) => (
@@ -336,14 +336,14 @@ const NavBar = () => {
                                 </div>
                                 <div className="">
                                     {/* Submenu for study */}
-                                    <div className="flex md:static py-2 justify-between" onClick={() =>SetStudyOpen(!openStudy)}>
-                                        <h1 className="md:text-xl">Study</h1>
+                                    <div className="flex lg:static py-2 justify-between" onClick={() =>SetStudyOpen(!openStudy)}>
+                                        <h1 className="lg:text-xl">Study</h1>
                                         <div className="">
-                                            <p className="md:hidden pl-2 mt-1"><IonIcon name={openStudy ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
+                                            <p className="lg:hidden pl-2 mt-1"><IonIcon name={openStudy ? 'chevron-up' : 'chevron-down'}></IonIcon></p>
                                         </div>
                                     </div>
-                                    {/* use inline-block in md:  */}
-                                    <div className={`pl-3 pt-2 -pb-4 ${openStudy ? 'static' : 'md:inline-block hidden'}`}>
+                                    {/* use inline-block in lg:  */}
+                                    <div className={`pl-3 pt-2 -pb-4 ${openStudy ? 'static' : 'lg:inline-block hidden'}`}>
                                         {/* fetch data from study */}
                                         {
                                             studies.map((study) => (
@@ -359,7 +359,7 @@ const NavBar = () => {
                         </div>
                         {/* menus in Academic submenu END */}
                     </li>
-                    <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
+                    <li className="px-4 mr-20 lg:py-0 pt-6 pb-6">
                         {/* Open Publication submenu */}
                         <div onClick={() => SetPubOpen(!oepnPub)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[16px]">
@@ -371,12 +371,12 @@ const NavBar = () => {
                          </div>
 
                         {/* Open Publication submenu Start */}
-                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${oepnPub ? 'static' : 'hidden'}`}>
-                            <div className="md:grid grid-cols-3 gap-2">
+                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${oepnPub ? 'static' : 'hidden'}`}>
+                            <div className="lg:grid grid-cols-3 gap-2">
                                 {
                                     publications.map((publication) =>(
                                         <a href={publication.links}>
-                                            <h1 className="md:text-xl md:py-0 py-2">{publication.name}</h1>
+                                            <h1 className="lg:text-xl lg:py-0 py-2">{publication.name}</h1>
                                         </a>
                                     ))
                                 }
@@ -385,7 +385,7 @@ const NavBar = () => {
 
                          {/* Open Publication submenu END */}
                     </li>
-                    <li className="px-4 mr-20 md:py-0 pt-6 pb-6">
+                    <li className="px-4 mr-20 lg:py-0 pt-6 pb-6">
                         {/* Open Careers submenu */}
                         <div onClick={() => SetCareersOpen(!openCareers)} className="text-md absolute ml-0 pt-1 cursor-pointer mr-12">
                             <div className="flex -mt-[16px]">
@@ -397,12 +397,12 @@ const NavBar = () => {
                          </div>
 
                         {/* Open Careers submenu Start */}
-                         <div className={`md:pr-8 pt-6 -ml-5 md:pl-8 md:pt-8 md:pb-8 rounded md:ml-[4%] md:w-11/12 md:mt-10 bg-gray-800 md:items-center md:pb-0 md:absolute md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  ${openCareers ? 'static' : 'hidden'}`}>
-                            <div className="md:grid grid-cols-3 gap-2">
+                         <div className={`lg:pr-8 pt-6 -ml-5 lg:pl-8 lg:pt-8 lg:pb-8 rounded lg:ml-[4%] lg:w-11/12 lg:mt-10 bg-gray-800 lg:items-center lg:pb-0 lg:absolute lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9  ${openCareers ? 'static' : 'hidden'}`}>
+                            <div className="lg:grid grid-cols-3 gap-2">
                                 {
                                     careers.map((career) =>(
                                         <a href={career.links}>
-                                            <h1 className="md:text-xl md:py-0 py-2">{career.name}</h1>
+                                            <h1 className="lg:text-xl lg:py-0 py-2">{career.name}</h1>
                                         </a>
                                     ))
                                 }
@@ -411,7 +411,7 @@ const NavBar = () => {
 
                          {/* Open Careers submenu END */}
                     </li>
-                    <li className="px-4 md:py-0 pt-4 pb-4">Contact</li>
+                    <li className="px-4 lg:py-0 pt-4 pb-4">Contact</li>
                 </ul>
                 
                 {/*-------------------- menus in navbar end ----------------------- */}
