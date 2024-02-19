@@ -141,10 +141,10 @@ const Contact = () => {
                     {/* fetch data from socialAccounts */}
                     {
                         socialAccounts.map((socialAccount) => (
-                            <div className="">
-                                <div className="">
+                            <div className="py-4">
+                                <div className="flex">
                                     <p className="text-xl font-semibold">{socialAccount.logo}</p>
-                                    <p className="pl-8 py-4">{socialAccount.name}</p>
+                                    <p className="pl-4 py-2">{socialAccount.name}</p>
                                 </div>
                             </div>
                         ))
