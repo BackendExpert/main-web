@@ -21,6 +21,11 @@ const Scientist = () => {
                         <p className="text-xl pt-0"><IonIcon name="caret-down"></IonIcon></p>
                     </div>
                 </div>
+                <div className="">
+                    <button>
+                        Apply
+                    </button>
+                </div>
             </div>    
 
         </div>
