@@ -411,9 +411,7 @@ const NavBar = () => {
 
                          {/* Open Careers submenu END */}
                     </li>
-                    <li className="px-4 lg:py-0 pt-4 pb-4">
-                        Contact
-                    </li>
+                    <li className="px-4 lg:py-0 pt-4 pb-4">Contact</li>
                 </ul>
                 
                 {/*-------------------- menus in navbar end ----------------------- */}
