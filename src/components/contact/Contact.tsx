@@ -17,8 +17,8 @@ const Contact = () => {
         {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-twitter"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-instagram"></IonIcon>, name: "Facebook"},
-        {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
-        {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},        
+        {logo: <IonIcon name="logo-youtube"></IonIcon>, name: "Youtube"},
+        {logo: <IonIcon name="logo-linkedin"></IonIcon>, name: "LinkedIn"},        
     ];
 
   return (
