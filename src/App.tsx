@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="">
       <NavBar />
-        <CountUp />
+        {/* <CountUp /> */}
 
         <BrowserRouter>
           <Routes>
