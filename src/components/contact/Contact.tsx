@@ -143,7 +143,7 @@ const Contact = () => {
                     {
                         socialAccounts.map((socialAccount) => (
                             <div className="">
-                                <div className="">
+                                <div className="flex">
                                     <p className="">{socialAccount.logo}</p>
                                     <p className="">{socialAccount.name}</p>
                                 </div>
