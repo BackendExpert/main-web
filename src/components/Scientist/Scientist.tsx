@@ -15,9 +15,10 @@ const Scientist = () => {
                     </div>
                 </div>
                 <div className="">
-                    <p className="font-semibold">Order</p>
-                    <div className="border my-2 py-2 px-2 rounded">
-                        First Name
+                    <p className="font-semibold">Sort by</p>
+                    <div className="border my-2 py-2 px-2 rounded flex justify-between">
+                        <p className="">First Name</p>
+                        <p className="text-xl pt-0"><IonIcon name="caret-down"></IonIcon></p>
                     </div>
                 </div>
             </div>    
