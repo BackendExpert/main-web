@@ -137,21 +137,17 @@ const Contact = () => {
             <div className="pt-8">
                 <h2 className="text-2xl font-semibold">Social Media</h2>
                 <hr className="mb-4" />
-                <div className="lg:grid gird-cols-3 gap-3">
-                    {/* fetch data from socialAccounts START */}
-
+                <div className="lg:grid grid-cols-3 gap-3">
+                    {/* fetch data from socialAccounts */}
                     {
-                        socialAccounts.map((socialAccount) => (
+                        socialAccounts.map((enquiry) => (
                             <div className="">
-                                <div className="flex">
-                                    <p className="">{socialAccount.logo}</p>
-                                    <p className="">{socialAccount.name}</p>
-                                </div>
+                                <p className="text-xl font-semibold">{enquiry.title}</p>
+                                <p className="pl-8 py-4">{enquiry.email}</p>
                             </div>
                         ))
                     }
-
-                    {/* fetch data from socialAccounts END */}
+                    {/* fetch data from socialAccounts  END*/}
                 </div>
             </div>
 
