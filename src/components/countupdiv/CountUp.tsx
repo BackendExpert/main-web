@@ -6,7 +6,7 @@ import UpCount from "react-countup"
 
 
 let coutupInfor = [
-    {name: "Patient", logo: <IonIcon name="newspaper"></IonIcon>, coutdata : 100}
+    {name: "Patient", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 100}
 ];
 
 const CountUp = () => {
