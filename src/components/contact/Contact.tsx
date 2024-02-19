@@ -115,7 +115,7 @@ const Contact = () => {
                         enquiries.map((enquiry) => (
                             <div className="">
                                 <p className="text-xl font-semibold">{enquiry.title}</p>
-                                <p className="pl-8">{enquiry.email}</p>
+                                <p className="pl-8 py-4">{enquiry.email}</p>
                             </div>
                         ))
                     }
