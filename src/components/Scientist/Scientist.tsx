@@ -21,9 +21,11 @@ const Scientist = () => {
                     <p className="">Sort By</p>
                     <div className="">
                         <select name="" id="" className="w-full border rounded py-2 px-2">
-                            <option value="" selected>First Name</option>
-                            <option value="">Middle Name</option>
-                            <option value="">Last Name</option>
+                            {
+                                sortBy.map((sort) => (
+                                    <option value="" className="">{sort.name}</option>
+                                ))
+                            }
                         </select>
                     </div>
                 </div>
