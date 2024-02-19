@@ -8,7 +8,10 @@ const Contact = () => {
             <hr className="mb-4" />
 
             <div className="lg:grid grid-cols-3 gap-4">
-                
+                <p className="text-xl pt-4 pb-6 font-semibold">Headquarters</p>
+                <div className="">
+                    <p>National Institute of Fundemental Studies</p>
+                </div>
             </div>
         </div>
     </div>
