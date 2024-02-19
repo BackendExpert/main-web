@@ -66,7 +66,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#293352] text-white">
-        <div className="contaier mx-auto px-12">
+        <div className="contaier mx-auto px-20">
             <div className="md:grid grid-cols-4 gap-2">
 
                 {/* ------------------------- Footer Menu Start ----------------------- */}
