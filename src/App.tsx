@@ -3,7 +3,7 @@ import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 // import CountUp from "./components/countupdiv/CountUp";
 import Contact from "./components/contact/Contact";
-import Scientist from "./components/Scientist/Scientist";
+
 
 export default function App() {
   return (
@@ -14,7 +14,6 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/contact" element={<Contact />} ></Route>
-            <Route path="/Scientist" element={<Scientist />} ></Route>
           </Routes>
         </BrowserRouter>
       <Footer />
