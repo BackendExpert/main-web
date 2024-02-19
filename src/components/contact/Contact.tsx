@@ -16,7 +16,7 @@ const Contact = () => {
     let socialAccount = [
         {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-twitter"></IonIcon>, name: "Facebook"},
-        {logo: <IonIcon name="logo-instergram"></IonIcon>, name: "Facebook"},
+        {logo: <IonIcon name="logo-instagram"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
         {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},        
     ];
