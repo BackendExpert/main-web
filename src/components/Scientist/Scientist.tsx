@@ -1,3 +1,7 @@
+import { useState } from "react"
+
+// for sort dropdown
+const [sortby, SetSortBy] = useState(false)
 
 const Scientist = () => {
   return (
@@ -7,7 +11,7 @@ const Scientist = () => {
             <div className="lg:grid grid-cols-5 gap-2">
                 <div className="">
                     <p className="">Sort By</p>
-                    <div className="">
+                    <div onClick={() => SetSortBy(!sortby)} className="">
                         
                     </div>
                 </div>
