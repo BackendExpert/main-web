@@ -12,6 +12,9 @@ const Contact = () => {
                     <p className="text-xl pt-4 pb-4 font-semibold">Headquarters</p>
                     <div className="">
                         <p>National Institute of Fundemental Studies</p>
+                        <p>Hanthana Road</p>
+                        <p>Kandy</p>
+                        <p>Sri Lanka</p>
                     </div>
                 </div>
             </div>
