@@ -4,6 +4,15 @@ import IonIcon from "@reacticons/ionicons"
 
 
 const Contact = () => {
+    // data for Enquiries
+    let enquiries = [
+        {title: "General Enquiries", email: "info@nifs.ac.lk"},
+        {title: "General Enquiries", email: "info@nifs.ac.lk"},
+        {title: "General Enquiries", email: "info@nifs.ac.lk"},
+        {title: "General Enquiries", email: "info@nifs.ac.lk"},
+        {title: "General Enquiries", email: "info@nifs.ac.lk"},        
+    ];
+
   return (
     <div className="container mx-auto px-32 py-16 text-[#293352]">
         <h1 className="text-center font-semibold text-4xl">Contact Us</h1>
