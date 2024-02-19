@@ -7,10 +7,10 @@ const Contact = () => {
     // data for Enquiries
     let enquiries = [
         {title: "General Enquiries", email: "info@nifs.ac.lk"},
-        {title: "General Enquiries", email: "info@nifs.ac.lk"},
-        {title: "General Enquiries", email: "info@nifs.ac.lk"},
-        {title: "General Enquiries", email: "info@nifs.ac.lk"},
-        {title: "General Enquiries", email: "info@nifs.ac.lk"},        
+        {title: "Media Enquiries", email: "info@nifs.ac.lk"},
+        {title: "Research Enquiries", email: "info@nifs.ac.lk"},
+        {title: "Website Enquiries", email: "info@nifs.ac.lk"},
+        {title: "Right to Information", email: "info@nifs.ac.lk"},        
     ];
 
   return (
