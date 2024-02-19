@@ -1,4 +1,7 @@
+//import reactions
 import IonIcon from "@reacticons/ionicons"
+
+
 
 const Contact = () => {
   return (
@@ -8,6 +11,7 @@ const Contact = () => {
             <h2 className="text-2xl font-semibold">Office Location</h2>
             <hr className="mb-4" />
 
+                {/*--------------------------- Office Locations Start -------------------------------*/}
             <div className="lg:grid grid-cols-3 gap-4">
                 <div className="">
                     <p className="text-xl pt-4 pb-4 font-semibold">Headquarters</p>
@@ -90,11 +94,14 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+                {/*---------------------------- Office Locations END* --------------------------------*/}
 
+                {/*---------------------------- Enquiries Start* --------------------------------*/}
             <div className="pt-8">
                 <h2 className="text-2xl font-semibold">Enquiries</h2>
                 <hr className="mb-4" />
             </div>
+                {/*---------------------------- Enquiries Start* --------------------------------*/}
         </div>
     </div>
   )
