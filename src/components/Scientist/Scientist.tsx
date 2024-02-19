@@ -5,8 +5,8 @@ const Scientist = () => {
         <h1 className="text-3xl font-semibold text-center">Scientists</h1>
 
         <div className="">
-            <p className="">Sort by</p>
-            <div className="">
+            <p className="font-semibold">Sort by</p>
+            <div className="border py-2 px-2">
                 First Name
             </div>
         </div>
