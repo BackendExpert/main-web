@@ -109,6 +109,17 @@ const Contact = () => {
             <div className="pt-8">
                 <h2 className="text-2xl font-semibold">Enquiries</h2>
                 <hr className="mb-4" />
+
+                <div className="lg:grid grid-cols-3 gap-3">
+                    {
+                        enquiries.map((enquiry) => (
+                            <div className="">
+                                <p className="text-xl font-semibold">{enquiry.title}</p>
+                                <p className="">{enquiry.email}</p>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
                 {/*---------------------------- Enquiries Start* --------------------------------*/}
         </div>
