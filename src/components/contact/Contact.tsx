@@ -64,11 +64,11 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="">
-                    <p className="text-xl pt-4 pb-4 font-semibold">Colombo Office</p>
+                    <p className="text-xl pt-4 pb-4 font-semibold">NIFS Sam Popham's Arboretum</p>
                     <div className="">
-                        <p>National Institute of Fundemental Studies</p>
-                        <p>No.380/71,72, Bauddhaloka Mawatha</p>
-                        <p>Colombo 07</p>
+                        <p>Kandlama Road</p>
+                        <p>Dambulla</p>
+                        <p>Matale</p>
                         <p>Sri Lanka</p>
                     </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
                             <IonIcon name="call" size="large"></IonIcon>
                         </p>
                         <div className="pl-2 pt-5">
-                            <p>(+94) 11 26 97 538</p>
+                            <p>(+94) 66 20 57 960</p>
                         </div>
                     </div>
                     <div className="flex pt-2 pb-4">
