@@ -13,6 +13,11 @@ const Contact = () => {
 
     //data for social Accounts
 
+    let socialAccount = [
+        {logo: <IonIcon name="logo-facebook"></IonIcon>, name: "Facebook"},
+        
+    ];
+
   return (
     <div className="container mx-auto px-32 py-16 text-[#293352]">
         <h1 className="text-center font-semibold text-4xl">Contact Us</h1>
