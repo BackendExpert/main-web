@@ -15,15 +15,12 @@ const CountUp = () => {
         <div className="md:grid grid-cols-5 gap-2 md:my-12">
             <div className="border">
                 <div className="text-center">
-                    {/* <p className="text-3xl"><IonIcon name="newspaper" size="large"></IonIcon></p>
-                    <p className="text-2xl">Patient</p>
-                    <p className="text-2xl"><UpCount end={100} /></p> */}
-
                     {
                         coutupInfor.map((countinfo) => (
                             <div className="">
-                                <p className="">{countinfo.logo}</p>
-                                <p className="">{countinfo.name}</p>
+                                <p className="text-3xl">{countinfo.logo}</p>
+                                <p className="text-2xl">{countinfo.name}</p>
+                                <p className="text-2xl">{countinfo.coutdata}</p>
                             </div>
                         ))
                     }
