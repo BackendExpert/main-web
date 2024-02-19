@@ -8,7 +8,7 @@ import Scientist from "./components/Scientist/Scientist";
 
 export default function App() {
   return (
-    <div className="">
+    <div>
       <NavBar />
         {/* <CountUp /> */}
 
