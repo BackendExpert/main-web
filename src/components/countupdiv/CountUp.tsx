@@ -24,7 +24,7 @@ const CountUp = () => {
                             <div className="">
                                 <p className="text-3xl">{countinfo.logo}</p>
                                 <p className="text-2xl">{countinfo.name}</p>
-                                <p className="text-2xl font-semibold"><UpCount end={countinfo.coutdata} /></p>
+                                <p className="text-2xl font-bold"><UpCount end={countinfo.coutdata} /></p>
                             </div>
                         </div>
                     </div>
