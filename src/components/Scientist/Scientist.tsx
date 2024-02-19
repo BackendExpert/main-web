@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons"
 
 const Scientist = () => {
   return (
@@ -9,7 +10,8 @@ const Scientist = () => {
                 <div className="">
                     <p className="font-semibold">Sort by</p>
                     <div className="border my-2 py-2 px-2 rounded">
-                        First Name
+                        <p className="">First Name</p>
+                        <p className=""><IonIcon name</p>
                     </div>
                 </div>
                 <div className="">
