@@ -142,10 +142,12 @@ const Contact = () => {
                     {
                         socialAccounts.map((socialAccount) => (
                             <div className="py-4">
-                                <div className="flex">
-                                    <p className="text-xl font-semibold">{socialAccount.logo}</p>
-                                    <p className="pl-4 py-2">{socialAccount.name}</p>
-                                </div>
+                                <a href={socialAccount.link}>
+                                    <div className="flex">
+                                        <p className="text-xl font-semibold">{socialAccount.logo}</p>
+                                        <p className="pl-4 py-2">{socialAccount.name}</p>
+                                    </div>
+                                </a>
                             </div>
                         ))
                     }
