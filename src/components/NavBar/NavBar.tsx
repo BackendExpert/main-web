@@ -1,5 +1,6 @@
 import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 
 const NavBar = () => {
@@ -411,7 +412,9 @@ const NavBar = () => {
 
                          {/* Open Careers submenu END */}
                     </li>
-                    <li className="px-4 lg:py-0 pt-4 pb-4">Contact</li>
+                    <li className="px-4 lg:py-0 pt-4 pb-4">
+                        Contact
+                    </li>
                 </ul>
                 
                 {/*-------------------- menus in navbar end ----------------------- */}
