@@ -19,7 +19,7 @@ const CountUp = () => {
         <div className="lg:grid grid-cols-5 gap-2 lg:my-12">
            {
                 coutupInfor.map((countinfo) => (
-                    <div className="py-8">
+                    <div className="py-8 text-[#293352]">
                         <div className="text-center">
                             <div className="">
                                 <p className="text-3xl">{countinfo.logo}</p>
