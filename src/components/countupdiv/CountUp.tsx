@@ -10,7 +10,7 @@ let coutupInfor = [
     {name: "Research", logo: <IonIcon name="telescope" size="large"></IonIcon>, coutdata : 54},
     {name: "People", logo: <IonIcon name="people" size="large"></IonIcon>, coutdata : 450},
     {name: "Faculties", logo: <IonIcon name="business" size="large"></IonIcon>, coutdata : 8},
-    {name: "Views", logo: <IonIcon name="newspaper" size="large"></IonIcon>, coutdata : 1000},    
+    {name: "Views", logo: <IonIcon name="eye" size="large"></IonIcon>, coutdata : 1000},    
 ];
 
 const CountUp = () => {
