@@ -1,12 +1,13 @@
 const TestArray = () => {
     let testArraies = [
         {name: "Amara", email: "k@123" },
-        {name: "Amara", email: "k@123" },
-
         {name: "Jehan", email: "k@123" },
         {name: "kamal", email: "k@123" },
-        {name: "Nimal", email: "n@123" },
-        {name: "Amara", email: "a@123" },
+        {name: "Nimal1", email: "n@123" },
+        {name: "Nimal2", email: "n@123" },
+        {name: "Nimal3", email: "n@123" },
+        {name: "Nimal4", email: "n@123" },
+        {name: "Nimal5", email: "n@123" },
     ];
 
 
@@ -19,8 +20,8 @@ const TestArray = () => {
                     return <p className="text-red-500 text-3xl">{testArray.name}</p>
                 }
                 else{
-                    for(var i=0; i <= testArraies.length; i++){
-                        <p className="">{i}</p>
+                    if(index <= 2){
+                        return <p className="">{testArray.name}</p>
                     }
                 }
             })
