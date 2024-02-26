@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Scientist from "./components/Scientist/Scientist";
 import TestArray from "./components/testArry/TestArray";
 import SciencPub from "./components/Science_Pub/SciencPub";
+import PubInfo from "./components/Science_Pub/PubInfo";
 
 
 export default function App() {
@@ -20,6 +21,8 @@ export default function App() {
             <Route path="/scientist" element={<Scientist />} ></Route>
             <Route path="/testArry" element={<TestArray />} ></Route>
             <Route path="/SciencePub" element={<SciencPub />} ></Route>
+            <Route path="/SciencePub/PubInfo" element={<PubInfo />} ></Route>
+            
           </Routes>
         </BrowserRouter>
       <Footer />
