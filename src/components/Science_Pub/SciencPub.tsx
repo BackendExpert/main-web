@@ -1,6 +1,8 @@
 const SciencPub = () => {
   return (
-    <div>SciencPub</div>
+    <div className="px-32 py-24">
+        Recent Scientific Publication
+    </div>
   )
 }
 
