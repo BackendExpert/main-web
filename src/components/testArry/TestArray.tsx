@@ -1,9 +1,9 @@
 const TestArray = () => {
     let testArraies = [
-        {name: "kamal", email: "k@123", id: 1},
-        {name: "Nimal", email: "n@123", id: 2},
-        {name: "Amara", email: "a@123", id: 3},
-        {name: "Saman", email: "s@123", id: 4},     
+        {name: "kamal", email: "k@123" },
+        {name: "Nimal", email: "n@123" },
+        {name: "Amara", email: "a@123" },
+        {name: "Saman", email: "s@123" },     
     ];
 
 
@@ -11,15 +11,13 @@ const TestArray = () => {
   return (
     <div className="px-32 py-20">
         {
-            testArraies.map((testArray) => {
-                if(testArray.id == 1){
-                    return (
-                        <div className="text-red-500">{testArray.name}</div>
-                    );
+            testArraies.map((testArray, index) => {
+                if(index == 0){
+                    return <p className="">{testArray.name}</p>
                 }
-                return (
-                    <div className="text-blue-500">{testArray.name}</div>
-                );
+                else{
+                    return <p className="">{testArray.name}</p>
+                }
             })
         }
     </div>
