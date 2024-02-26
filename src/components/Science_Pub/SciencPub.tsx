@@ -26,11 +26,13 @@ const SciencPub = () => {
         <div className="lg:grid grid-cols-3 gap-4 my-10">
             {
                 sciencePub.map((sciPub) => (
-                    <div className="mx-8 my-8">
-                        <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
-                        <p className="text-xl -mt-10 ml-4 text-white">{sciPub.title}</p>
-                        <p className="mt-6 ml-2 text-xl">{sciPub.subdesc}</p>
-                    </div>
+                    <a href={sciPub.link}>
+                        <div className="mx-8 my-8">
+                            <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
+                            <p className="text-xl -mt-10 ml-4 text-white">{sciPub.title}</p>
+                            <p className="mt-6 ml-2 text-xl">{sciPub.subdesc}</p>
+                        </div>
+                    </a>
                 ))
             }
         </div>
