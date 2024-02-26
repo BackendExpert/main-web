@@ -20,11 +20,11 @@ const SciencPub = () => {
     <div className="px-32 py-24">
         <h1 className="text-center text-4xl font-semibold">Recent Scientific Publication</h1>
 
-        <div className="">
+        <div className="flex justify-between my-16">
             {
                 sciencePub.map((sciPub) => (
-                    <div className={`bg-[url()]`}>
-                        
+                    <div className={`bg-[url(${sciPub.img})] bg-cover bg-center h-80 w-full mx-8`}>
+                        Hi al
                     </div>
                 ))
             }
