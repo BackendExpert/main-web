@@ -4,7 +4,7 @@
 - use enableScrollSpy={true} for coutdown start only when scroll to the component
 
 
-```js
+```html
 export default {
   // other rules...
   parserOptions: {
