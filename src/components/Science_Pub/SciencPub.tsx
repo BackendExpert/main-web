@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const SciencPub = () => {
+    // Science Publication Data
     let sciencePub = [
         {
             link: "/SciencePub/PubInfo",
@@ -26,6 +27,7 @@ const SciencPub = () => {
         <h1 className="text-center text-4xl font-semibold">Recent Scientific Publication</h1>
 
         <div className="lg:grid grid-cols-3 gap-4 my-10">
+            {/* ------------------ Fetch Start Science Publication ---------------------*/}
             {
                 sciencePub.map((sciPub) => (
                     <Link to={sciPub.link}>
@@ -37,6 +39,7 @@ const SciencPub = () => {
                     </Link>
                 ))
             }
+             {/* ------------------ Fetch End Science Publication ---------------------*/}
         </div>
 
     </div>
