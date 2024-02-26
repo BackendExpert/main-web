@@ -28,6 +28,11 @@ const SciencPub = () => {
 
         <div className="lg:grid grid-cols-3 gap-4 my-10">
             {/* ------------------ Fetch Start Science Publication ---------------------*/}
+
+            {/* 
+                If You are using Link you have to define the routes in App.tsx file othervise ERROR
+            
+            */}
             {
                 sciencePub.map((sciPub) => (
                     <Link to={sciPub.link}>
