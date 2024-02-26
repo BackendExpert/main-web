@@ -23,8 +23,8 @@ const SciencPub = () => {
         <div className="flex justify-between my-16">
             {
                 sciencePub.map((sciPub) => (
-                    <div className={`bg-[url(${sciPub.img})] bg-cover bg-center h-80 w-full mx-8`}>
-                        Hi al
+                    <div className="mx-10">
+                        <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
                     </div>
                 ))
             }
