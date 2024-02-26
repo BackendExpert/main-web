@@ -25,6 +25,7 @@ const SciencPub = () => {
                 sciencePub.map((sciPub) => (
                     <div className="mx-10">
                         <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
+                        <p className="">{sciPub.title}</p>
                     </div>
                 ))
             }
