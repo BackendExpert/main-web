@@ -8,7 +8,7 @@ const PubInfo = () => {
 
             <div className="lg:flex my-12">
                 <img src="https://wallpapercave.com/wp/wp1870777.jpg" alt="" className="lg:w-[50%] h-auto rounded-xl"/>
-                <p className="text-left lg:py-0 lg:pl-12 py-6 text-2xl">Hello World</p>
+                <p className="text-left lg:py-0 lg:pl-12 py-6 text-2xl">Dr. Shalini Rajakaruna <br />Published on Mon, 06/01/2020</p>
             </div>
         </div>
     </div>
