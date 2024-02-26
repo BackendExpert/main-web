@@ -32,7 +32,7 @@ const PubInfo = () => {
                 Corrupti pariatur perferendis aliquam accusamus vel? Dolorem magnam suscipit minus quisquam nihil repellendus sunt consequatur! Nesciunt enim, fuga quae laudantium quas repellendus sunt dolores vero voluptatem qui perferendis necessitatibus eum?
                 Laboriosam debitis, nostrum sit rem dolore suscipit non quaerat sapiente accusamus possimus praesentium ipsam, eos iste molestias cupiditate explicabo. Quasi dolorum, pariatur distinctio nobis fuga labore voluptas doloribus odio. Laudantium.
             </div>
-            <div className="py-10 px-40">
+            <div className="py-10 lg:px-40">
                 <img src="https://wallpapercave.com/wp/wp1870777.jpg" alt="" className="lg:w-[100%] h-auto rounded-xl"/>
             </div>
             <h1 className="text-2xl font-semibold py-8">Controversial Origin of COVID-19; From Bats to Pangolins to Humans?</h1>
@@ -66,7 +66,7 @@ const PubInfo = () => {
                 Voluptatibus reiciendis deleniti cumque? Eligendi at obcaecati exercitationem quae nisi porro reiciendis veritatis alias cumque cupiditate mollitia vero iusto, optio enim deserunt aperiam amet, ex eos! Excepturi exercitationem alias tempora.
                 Eum sunt atque debitis quos provident maxime placeat voluptates beatae tenetur, illo, qui voluptatum optio dolor reiciendis magni perferendis sequi earum esse! Ipsa nobis modi at quod. Odio, voluptatem itaque.
             </div>
-            <div className="py-10 px-40">
+            <div className="py-10 lg:px-40">
                 <img src="https://wallpapercave.com/wp/wp1870777.jpg" alt="" className="lg:w-[100%] h-auto rounded-xl"/>
             </div>
             <h1 className="text-2xl font-semibold py-8">Other Pandemics of this century and wildlife trade</h1>
