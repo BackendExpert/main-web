@@ -5,13 +5,7 @@
 
 
 ```html
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
+
+<p className="text-2xl font-bold"><UpCount enableScrollSpy={true} end={countinfo.coutdata} /></p>
 }
 ```
