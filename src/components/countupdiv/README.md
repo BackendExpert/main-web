@@ -7,5 +7,6 @@
 ```html
 
 <p className="text-2xl font-bold"><UpCount enableScrollSpy={true} end={countinfo.coutdata} /></p>
-}
+
+
 ```
