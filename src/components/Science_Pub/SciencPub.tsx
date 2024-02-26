@@ -15,21 +15,6 @@ const SciencPub = () => {
             title: "Awareness", 
             subdesc: "The Present Covid-19"
         },
-        {
-            img: "https://wallpapercave.com/wp/wp1870777.jpg", 
-            title: "Awareness", 
-            subdesc: "Stop the next pandemic? Stop illegal wildlife trade!"
-        },
-        {
-            img: "https://wallpapercave.com/wp/wp1870777.jpg", 
-            title: "Awareness", 
-            subdesc: "The Science of Aji-no-moto"
-        },
-        {
-            img: "https://wallpapercave.com/wp/wp1870777.jpg", 
-            title: "Awareness", 
-            subdesc: "The Present Covid-19"
-        },
     ]
   return (
     <div className="lg:px-32 py-24">
