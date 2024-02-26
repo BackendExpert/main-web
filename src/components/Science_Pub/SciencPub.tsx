@@ -17,16 +17,16 @@ const SciencPub = () => {
         },
     ]
   return (
-    <div className="px-32 py-24">
+    <div className="lg:px-32 py-24">
         <h1 className="text-center text-4xl font-semibold">Recent Scientific Publication</h1>
 
-        <div className="flex justify-between my-16">
+        <div className="lg:flex justify-between my-16">
             {
                 sciencePub.map((sciPub) => (
                     <div className="mx-10">
                         <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
                         <p className="text-xl -mt-10 ml-4 text-white">{sciPub.title}</p>
-                        <p className="mt-10">{sciPub.subdesc}</p>
+                        <p className="mt-6 ml-2 text-xl">{sciPub.subdesc}</p>
                     </div>
                 ))
             }
