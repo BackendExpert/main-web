@@ -26,7 +26,7 @@ const SciencPub = () => {
                     <div className="mx-10">
                         <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
                         <p className="text-xl -mt-10 ml-4 text-white">{sciPub.title}</p>
-                        <p className="">{sciPub.subdesc}</p>
+                        <p className="mt-10">{sciPub.subdesc}</p>
                     </div>
                 ))
             }
