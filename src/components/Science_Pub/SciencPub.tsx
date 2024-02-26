@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom"
+
 const SciencPub = () => {
     let sciencePub = [
         {
-            link: "#",
+            link: "/SciencePub/PubInfo",
             img: "https://wallpapercave.com/wp/wp1870777.jpg", 
             title: "Awareness", 
             subdesc: "Stop the next pandemic? Stop illegal wildlife trade!"
         },
         {
-            link: "#",
+            link: "/SciencePub/PubInfo",
             img: "https://wallpapercave.com/wp/wp1870777.jpg", 
             title: "Awareness", 
             subdesc: "The Science of Aji-no-moto"
         },
         {
-            link: "#",
+            link: "/SciencePub/PubInfo",
             img: "https://wallpapercave.com/wp/wp1870777.jpg", 
             title: "Awareness", 
             subdesc: "The Present Covid-19"
@@ -26,13 +28,13 @@ const SciencPub = () => {
         <div className="lg:grid grid-cols-3 gap-4 my-10">
             {
                 sciencePub.map((sciPub) => (
-                    <a href={sciPub.link}>
+                    <Link to={sciPub.link}>
                         <div className="mx-8 my-8">
                             <img src={sciPub.img} alt="" className="w-full rounded-xl"/>
                             <p className="text-xl -mt-10 ml-4 text-white">{sciPub.title}</p>
                             <p className="mt-6 ml-2 text-xl">{sciPub.subdesc}</p>
                         </div>
-                    </a>
+                    </Link>
                 ))
             }
         </div>
