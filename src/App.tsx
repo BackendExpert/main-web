@@ -21,8 +21,7 @@ export default function App() {
             <Route path="/scientist" element={<Scientist />} ></Route>
             <Route path="/testArry" element={<TestArray />} ></Route>
             <Route path="/SciencePub" element={<SciencPub />} ></Route>
-            <Route path="/SciencePub/PubInfo" element={<PubInfo />} ></Route>
-            
+            <Route path="/SciencePub/PubInfo" element={<PubInfo />} ></Route>            
           </Routes>
         </BrowserRouter>
       <Footer />
