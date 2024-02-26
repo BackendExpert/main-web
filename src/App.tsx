@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 // import CountUp from "./components/countupdiv/CountUp";
 import Contact from "./components/contact/Contact";
 import Scientist from "./components/Scientist/Scientist";
+import TestArray from "./components/testArry/TestArray";
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/contact" element={<Contact />} ></Route>
             <Route path="/scientist" element={<Scientist />} ></Route>
+            <Route path="/testArry" element={<TestArray />} ></Route>
           </Routes>
         </BrowserRouter>
       <Footer />
