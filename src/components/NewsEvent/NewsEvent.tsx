@@ -1,3 +1,4 @@
+import newsevetlist from "./NewsEventList"
 
 const NewsEvent = () => {
 

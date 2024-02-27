@@ -1,4 +1,4 @@
- let newsevetlist = [
+const newsevetlist = [
     {
         link: "#",
         img: "tet1",
@@ -18,4 +18,6 @@
         subdesc: "asdas"
     },
     
-]
+];
+
+export default newsevetlist;
