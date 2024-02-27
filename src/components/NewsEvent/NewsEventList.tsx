@@ -2,8 +2,8 @@ const newsevetlist = [
     {
         link: "#",
         img: "tet1",
-        title: "",
-        subdesc: ""
+        title: "asdasdasd",
+        subdesc: "asdasdasdasd"
     },
     {
         link: "#",
