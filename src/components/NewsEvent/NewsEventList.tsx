@@ -1,5 +1,6 @@
-// news and events list
+//
 
+// news and events list
 const newsevetlist = [
     {
         link: "#",
