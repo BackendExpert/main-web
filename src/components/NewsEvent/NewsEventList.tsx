@@ -17,12 +17,33 @@ const newsevetlist = [
         img: {School},
         title: "Compitition",
         subdesc: "Champions of the Research Competition"
-    },
+    },    
     {
         link: "#",
         img: {MainH},
         title: "Press Release",
         subdesc: "The NIFS inputs have been fruitful"
+    },
+
+
+
+    {
+        link: "#",
+        img: {Profs},
+        title: "Special Lectures",
+        subdesc: "Advanced Raman Spectroscopy of Carbon Nanomaterials"
+    },
+    {
+        link: "#",
+        img: {School},
+        title: "Award and Recognition",
+        subdesc: "NIFS Volunteer Researcher Honored with Gold Medal"
+    },
+    {
+        link: "#",
+        img: {MainH},
+        title: "Conference",
+        subdesc: "NIFS 2024 Conference on Novermber 2024"
     },
     
 ];
