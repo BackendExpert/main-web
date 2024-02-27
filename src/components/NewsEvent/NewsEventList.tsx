@@ -35,7 +35,7 @@ const newsevetlist = [
     },
     {
         link: "#",
-        img: {School},
+        img: {Win},
         title: "Award and Recognition",
         subdesc: "NIFS Volunteer Researcher Honored with Gold Medal"
     },
