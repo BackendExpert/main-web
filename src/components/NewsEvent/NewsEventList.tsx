@@ -14,13 +14,13 @@ const newsevetlist = [
     },
     {
         link: "#",
-        img: "tes2",
+        img: {School},
         title: "asd",
         subdesc: "asds"
     },
     {
         link: "#",
-        img: "asdasdasd",
+        img: {MainH},
         title: "dasd",
         subdesc: "asdas"
     },
