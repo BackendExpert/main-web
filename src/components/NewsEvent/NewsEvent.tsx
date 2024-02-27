@@ -7,7 +7,7 @@ const NewsEvent = () => {
         {
             newsevetlist.map((news) => (
                 <div className="">
-                    <p className="">{news.link}</p>
+                    <p className="">{news.title}</p>
                 </div>
             ))
         }
