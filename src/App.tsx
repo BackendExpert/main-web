@@ -3,7 +3,6 @@ import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 // import CountUp from "./components/countupdiv/CountUp";
 import Contact from "./components/contact/Contact";
-import Scientist from "./components/Scientist/Scientist";
 import SciencPub from "./components/Science_Pub/SciencPub";
 import PubInfo from "./components/Science_Pub/PubInfo";
 import NewsEvent from "./components/NewsEvent/NewsEvent";
@@ -20,9 +19,6 @@ export default function App() {
           <Routes>
             {/* Route for contact page */}
             <Route path="/contact" element={<Contact />} ></Route>
-
-            {/* Route for scientist page */}
-            <Route path="/scientist" element={<Scientist />} ></Route>
 
             {/* Route for Science Publication page */}
             <Route path="/SciencePub" element={<SciencPub />} ></Route>
