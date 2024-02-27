@@ -1,5 +1,5 @@
-let newsevetlist = [
+export const newsevetlist = [
     {
-        
+
     }
 ]
