@@ -7,10 +7,10 @@ import MainH from "../../assets/mainh.jpg"
 // news and events list
 const newsevetlist = [
     {
-        link: {Profs},
-        img: "tet1",
-        title: "asdasdasd",
-        subdesc: "asdasdasdasd"
+        link: "#",
+        img: {Profs},
+        title: "Award and Recognition",
+        subdesc: "Three NIFS Researchers ranked Among Top 2% Scientists in the World - Elsevier/Stanford Citation Analysis"
     },
     {
         link: "#",
