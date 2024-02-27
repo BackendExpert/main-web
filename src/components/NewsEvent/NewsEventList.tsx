@@ -15,14 +15,14 @@ const newsevetlist = [
     {
         link: "#",
         img: {School},
-        title: "asd",
-        subdesc: "asds"
+        title: "Compitition",
+        subdesc: "Champions of the Research Competition"
     },
     {
         link: "#",
         img: {MainH},
-        title: "dasd",
-        subdesc: "asdas"
+        title: "Press Release",
+        subdesc: "The NIFS inputs have been fruitful"
     },
     
 ];
