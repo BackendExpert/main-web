@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Scientist from "./components/Scientist/Scientist";
 import SciencPub from "./components/Science_Pub/SciencPub";
 import PubInfo from "./components/Science_Pub/PubInfo";
+import NewsEvent from "./components/NewsEvent/NewsEvent";
 
 
 export default function App() {
@@ -27,7 +28,10 @@ export default function App() {
             <Route path="/SciencePub" element={<SciencPub />} ></Route>
 
             {/* Route for Science Publication more infor page */}
-            <Route path="/SciencePub/PubInfo" element={<PubInfo />} ></Route>            
+            <Route path="/SciencePub/PubInfo" element={<PubInfo />} ></Route>   
+
+            {/* Route for News and Events page */}
+            <Route path="/NewsEvent" element={<NewsEvent />} ></Route>         
           </Routes>
         </BrowserRouter>
 
